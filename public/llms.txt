@@ -7,81 +7,81 @@
 ## Pages
 
 ### בית
-https://-5bf58167.zappy5.app
+https://example.com
 פלטפורמה רוחנית המשלבת קורסים, בלוג והקלטות להעמקת החיבור לכוחות יצירתיים עליונים. הצטרפו למסע של התפתחות וצמיחה פנימית עוד היום.
 
 ### בלוג
-https://-5bf58167.zappy5.app/blog
+https://example.com/blog
 בלוג רוחניות ועזרה עצמית עם מאמרים מעוררי השראה על חיבור לכוחות עליונים, מימוש עצמי והתפתחות נפשית. קראו עכשיו וקבלו זווית רעננה על מסע חייכם.
 
 ### הקלטות
-https://-5bf58167.zappy5.app/recordings
+https://example.com/recordings
 ערוץ הקלטות ייחודי עם תכנים קוליים להעמקת המדיטציה, החיבור הפנימי והצמיחה הרוחנית. לחצו להאזנה ושקעו בעולם של צלילים מרפאים ומעוררי מודעות.
 
 ### צור קשר
-https://-5bf58167.zappy5.app/contact
+https://example.com/contact
 צרו קשר עם צוות &#39;מסרים מעולם היצירה&#39; וקבלו הכוונה אישית לקורסים, תכנים והקלטות שיתאימו למסע הצמיחה שלכם. מלאו את הפרטים ונחזור אליכם במהרה.
 
 ### Cart
-https://-5bf58167.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://-5bf58167.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://-5bf58167.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://-5bf58167.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://-5bf58167.zappy5.app/order-success
+https://example.com/order-success
 תודה שנרשמת לקורס
 
 ### תודה על פנייתך
-https://-5bf58167.zappy5.app/thank-you
+https://example.com/thank-you
 מסרים מעולם היצירה - תודה על פנייתך
 
 ### Courses
-https://-5bf58167.zappy5.app/courses
+https://example.com/courses
 Browse all available courses.
 
 ### Course Category
-https://-5bf58167.zappy5.app/category/:slug
+https://example.com/category/:slug
 Browse courses in this category.
 
 ### Course Detail
-https://-5bf58167.zappy5.app/courses/:slug
+https://example.com/courses/:slug
 Course details and curriculum.
 
 ### Lesson
-https://-5bf58167.zappy5.app/lesson/:lessonId
+https://example.com/lesson/:lessonId
 Lesson player.
 
 ### My Learning
-https://-5bf58167.zappy5.app/my-learning
+https://example.com/my-learning
 Your enrolled courses and progress.
 
 ### Certificate
-https://-5bf58167.zappy5.app/certificate/:code
+https://example.com/certificate/:code
 Verify a course completion certificate.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-5bf58167.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-5bf58167.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-5bf58167.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -109,8 +109,8 @@ Spirituality & Personal Development
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-5bf58167.zappy5.app/sitemap.xml
-- Robots: https://-5bf58167.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-5bf58167.zappy5.app/llms-full.txt
-- Products (JSON): https://-5bf58167.zappy5.app/products.json
-- Products (Google Merchant RSS): https://-5bf58167.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
