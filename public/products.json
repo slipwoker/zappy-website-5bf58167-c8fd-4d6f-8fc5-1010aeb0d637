@@ -1,16 +1,16 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T09:37:34.318Z",
+  "generated_at": "2026-06-25T09:46:43.709Z",
   "base_url": "https://example.com",
   "currency": "ILS",
   "count": 1,
   "products": [
     {
       "id": "daf7fec2-0ebb-4967-b502-43b9c8ce8cf1",
-      "slug": "mdyttsyyt-alkymyt-hahbh-sndrb8",
+      "slug": "mdyttsyyt-alkymyt-hahbh-1qn9fc",
       "name": "מדיטציית אלכימית האהבה",
       "name_translations": {},
-      "description": "קורס מדיטציית אלכימיה האהבה בהנחיית לילך נגה. מסע רוחני עמוק המשלב מדיטציה, אלכימיה פנימית ואהבה.",
+      "description": "מדיטציה מונחית חווייתית המשלבת אלכימיה פנימית, דמיון מודרך ותדרי אהבה. המסע כולל חיבור ללב, שחרור חסימות, והתמרת אנרגיה — בליווי הקול המרגיע של לילך נגה.",
       "short_description": null,
       "sku": null,
       "brand": null,
@@ -21,9 +21,9 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mdyttsyyt-alkymyt-hahbh-sndrb8",
+      "url": "https://example.com/product/mdyttsyyt-alkymyt-hahbh-1qn9fc",
       "categories": [],
-      "updated_at": "2026-06-25T09:36:57.522Z"
+      "updated_at": "2026-06-25T09:44:59.056Z"
     }
   ]
 }

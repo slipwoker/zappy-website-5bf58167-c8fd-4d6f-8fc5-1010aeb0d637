@@ -91,10 +91,10 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### מדיטציית אלכימית האהבה
-https://example.com/product/mdyttsyyt-alkymyt-hahbh-sndrb8
+https://example.com/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
 - Price: 50.00 ILS
 - Availability: In stock
-- Description: קורס מדיטציית אלכימיה האהבה בהנחיית לילך נגה. מסע רוחני עמוק המשלב מדיטציה, אלכימיה פנימית ואהבה.
+- Description: מדיטציה מונחית חווייתית המשלבת אלכימיה פנימית, דמיון מודרך ותדרי אהבה. המסע כולל חיבור ללב, שחרור חסימות, והתמרת אנרגיה — בליווי הקול המרגיע של לילך נגה.
 
 ---
 
