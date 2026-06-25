@@ -88,7 +88,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 1**
+
+### מדיטציית אלכימית האהבה
+https://example.com/product/mdyttsyyt-alkymyt-hahbh-sndrb8
+- Price: 50.00 ILS
+- Availability: In stock
+- Description: קורס מדיטציית אלכימיה האהבה בהנחיית לילך נגה. מסע רוחני עמוק המשלב מדיטציה, אלכימיה פנימית ואהבה.
 
 ---
 
