@@ -7,81 +7,81 @@
 ## Pages
 
 ### בית
-https://example.com
+https://messages-from-the-world-of-cre.zappy5.app
 פלטפורמה רוחנית המשלבת קורסים, בלוג והקלטות להעמקת החיבור לכוחות יצירתיים עליונים. הצטרפו למסע של התפתחות וצמיחה פנימית עוד היום.
 
 ### בלוג
-https://example.com/blog
+https://messages-from-the-world-of-cre.zappy5.app/blog
 בלוג רוחניות ועזרה עצמית עם מאמרים מעוררי השראה על חיבור לכוחות עליונים, מימוש עצמי והתפתחות נפשית. קראו עכשיו וקבלו זווית רעננה על מסע חייכם.
 
 ### הקלטות
-https://example.com/recordings
+https://messages-from-the-world-of-cre.zappy5.app/recordings
 ערוץ הקלטות ייחודי עם תכנים קוליים להעמקת המדיטציה, החיבור הפנימי והצמיחה הרוחנית. לחצו להאזנה ושקעו בעולם של צלילים מרפאים ומעוררי מודעות.
 
 ### צור קשר
-https://example.com/contact
+https://messages-from-the-world-of-cre.zappy5.app/contact
 צרו קשר עם צוות &#39;מסרים מעולם היצירה&#39; וקבלו הכוונה אישית לקורסים, תכנים והקלטות שיתאימו למסע הצמיחה שלכם. מלאו את הפרטים ונחזור אליכם במהרה.
 
 ### Cart
-https://example.com/cart
+https://messages-from-the-world-of-cre.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://messages-from-the-world-of-cre.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://messages-from-the-world-of-cre.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://messages-from-the-world-of-cre.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://messages-from-the-world-of-cre.zappy5.app/order-success
 תודה שנרשמת לקורס
 
-### תודה על פנייתך
-https://example.com/thank-you
-מסרים מעולם היצירה - תודה על פנייתך
-
 ### Courses
-https://example.com/courses
+https://messages-from-the-world-of-cre.zappy5.app/courses
 Browse all available courses.
 
 ### Course Category
-https://example.com/category/:slug
+https://messages-from-the-world-of-cre.zappy5.app/category/:slug
 Browse courses in this category.
 
 ### Course Detail
-https://example.com/courses/:slug
+https://messages-from-the-world-of-cre.zappy5.app/courses/:slug
 Course details and curriculum.
 
 ### Lesson
-https://example.com/lesson/:lessonId
+https://messages-from-the-world-of-cre.zappy5.app/lesson/:lessonId
 Lesson player.
 
 ### My Learning
-https://example.com/my-learning
+https://messages-from-the-world-of-cre.zappy5.app/my-learning
 Your enrolled courses and progress.
 
 ### Certificate
-https://example.com/certificate/:code
+https://messages-from-the-world-of-cre.zappy5.app/certificate/:code
 Verify a course completion certificate.
+
+### תודה על פנייתך
+https://messages-from-the-world-of-cre.zappy5.app/thank-you
+מסרים מעולם היצירה - תודה על פנייתך
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://messages-from-the-world-of-cre.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://messages-from-the-world-of-cre.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://messages-from-the-world-of-cre.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -91,13 +91,13 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 2**
 
 ### סוד האותיות
-https://example.com/product/svd-havtyvt-38alvm
+https://messages-from-the-world-of-cre.zappy5.app/product/svd-havtyvt-38alvm
 - Price: 1069.00 ILS
 - Availability: In stock
 - Description: כאן יופיע תיאור קצר
 
 ### מדיטציית אלכימית האהבה
-https://example.com/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
+https://messages-from-the-world-of-cre.zappy5.app/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
 - Price: 50.00 ILS
 - Availability: In stock
 - Description: מדיטציה מונחית חווייתית המשלבת אלכימיה פנימית, דמיון מודרך ותדרי אהבה. המסע כולל חיבור ללב, שחרור חסימות, והתמרת אנרגיה — בליווי הקול המרגיע של לילך נגה.
@@ -121,8 +121,8 @@ Spirituality & Personal Development
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://messages-from-the-world-of-cre.zappy5.app/sitemap.xml
+- Robots: https://messages-from-the-world-of-cre.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://messages-from-the-world-of-cre.zappy5.app/llms-full.txt
+- Products (JSON): https://messages-from-the-world-of-cre.zappy5.app/products.json
+- Products (Google Merchant RSS): https://messages-from-the-world-of-cre.zappy5.app/product-feed.xml
