@@ -7,81 +7,81 @@
 ## Pages
 
 ### בית
-https://messages-from-the-world-of-cre.zappy5.app
+https://lilachnoga.co.il
 פלטפורמה רוחנית המשלבת קורסים, בלוג והקלטות להעמקת החיבור לכוחות יצירתיים עליונים. הצטרפו למסע של התפתחות וצמיחה פנימית עוד היום.
 
 ### בלוג
-https://messages-from-the-world-of-cre.zappy5.app/blog
+https://lilachnoga.co.il/blog
 בלוג רוחניות ועזרה עצמית עם מאמרים מעוררי השראה על חיבור לכוחות עליונים, מימוש עצמי והתפתחות נפשית. קראו עכשיו וקבלו זווית רעננה על מסע חייכם.
 
 ### הקלטות
-https://messages-from-the-world-of-cre.zappy5.app/recordings
+https://lilachnoga.co.il/recordings
 ערוץ הקלטות ייחודי עם תכנים קוליים להעמקת המדיטציה, החיבור הפנימי והצמיחה הרוחנית. לחצו להאזנה ושקעו בעולם של צלילים מרפאים ומעוררי מודעות.
 
 ### צור קשר
-https://messages-from-the-world-of-cre.zappy5.app/contact
+https://lilachnoga.co.il/contact
 צרו קשר עם צוות &#39;מסרים מעולם היצירה&#39; וקבלו הכוונה אישית לקורסים, תכנים והקלטות שיתאימו למסע הצמיחה שלכם. מלאו את הפרטים ונחזור אליכם במהרה.
 
 ### Cart
-https://messages-from-the-world-of-cre.zappy5.app/cart
+https://lilachnoga.co.il/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://messages-from-the-world-of-cre.zappy5.app/checkout
+https://lilachnoga.co.il/checkout
 תשלום
 
 ### Login
-https://messages-from-the-world-of-cre.zappy5.app/login
+https://lilachnoga.co.il/login
 התחברות לקוחות
 
 ### Account
-https://messages-from-the-world-of-cre.zappy5.app/account
+https://lilachnoga.co.il/account
 החשבון שלי
 
 ### Order Success
-https://messages-from-the-world-of-cre.zappy5.app/order-success
+https://lilachnoga.co.il/order-success
 תודה שנרשמת לקורס
 
 ### Courses
-https://messages-from-the-world-of-cre.zappy5.app/courses
+https://lilachnoga.co.il/courses
 Browse all available courses.
 
 ### Course Category
-https://messages-from-the-world-of-cre.zappy5.app/category/:slug
+https://lilachnoga.co.il/category/:slug
 Browse courses in this category.
 
 ### Course Detail
-https://messages-from-the-world-of-cre.zappy5.app/courses/:slug
+https://lilachnoga.co.il/courses/:slug
 Course details and curriculum.
 
 ### Lesson
-https://messages-from-the-world-of-cre.zappy5.app/lesson/:lessonId
+https://lilachnoga.co.il/lesson/:lessonId
 Lesson player.
 
 ### My Learning
-https://messages-from-the-world-of-cre.zappy5.app/my-learning
+https://lilachnoga.co.il/my-learning
 Your enrolled courses and progress.
 
 ### Certificate
-https://messages-from-the-world-of-cre.zappy5.app/certificate/:code
+https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
 
 ### תודה על פנייתך
-https://messages-from-the-world-of-cre.zappy5.app/thank-you
+https://lilachnoga.co.il/thank-you
 מסרים מעולם היצירה - תודה על פנייתך
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://messages-from-the-world-of-cre.zappy5.app/privacy
+https://lilachnoga.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://messages-from-the-world-of-cre.zappy5.app/terms
+https://lilachnoga.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://messages-from-the-world-of-cre.zappy5.app/accessibility
+https://lilachnoga.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -91,13 +91,13 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 2**
 
 ### סוד האותיות
-https://messages-from-the-world-of-cre.zappy5.app/product/svd-havtyvt-38alvm
+https://lilachnoga.co.il/product/svd-havtyvt-38alvm
 - Price: 1069.00 ILS
 - Availability: In stock
 - Description: כאן יופיע תיאור קצר
 
 ### מדיטציית אלכימית האהבה
-https://messages-from-the-world-of-cre.zappy5.app/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
+https://lilachnoga.co.il/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
 - Price: 50.00 ILS
 - Availability: In stock
 - Description: מדיטציה מונחית חווייתית המשלבת אלכימיה פנימית, דמיון מודרך ותדרי אהבה. המסע כולל חיבור ללב, שחרור חסימות, והתמרת אנרגיה — בליווי הקול המרגיע של לילך נגה.
@@ -121,8 +121,8 @@ Spirituality & Personal Development
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://messages-from-the-world-of-cre.zappy5.app/sitemap.xml
-- Robots: https://messages-from-the-world-of-cre.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://messages-from-the-world-of-cre.zappy5.app/llms-full.txt
-- Products (JSON): https://messages-from-the-world-of-cre.zappy5.app/products.json
-- Products (Google Merchant RSS): https://messages-from-the-world-of-cre.zappy5.app/product-feed.xml
+- Sitemap (XML): https://lilachnoga.co.il/sitemap.xml
+- Robots: https://lilachnoga.co.il/robots.txt
+- Flattened page text (for LLMs): https://lilachnoga.co.il/llms-full.txt
+- Products (JSON): https://lilachnoga.co.il/products.json
+- Products (Google Merchant RSS): https://lilachnoga.co.il/product-feed.xml

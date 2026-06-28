@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app</loc>
+    <loc>https://lilachnoga.co.il</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/blog</loc>
+    <loc>https://lilachnoga.co.il/blog</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/recordings</loc>
+    <loc>https://lilachnoga.co.il/recordings</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/contact</loc>
+    <loc>https://lilachnoga.co.il/contact</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/cart</loc>
+    <loc>https://lilachnoga.co.il/cart</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/checkout</loc>
+    <loc>https://lilachnoga.co.il/checkout</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/login</loc>
+    <loc>https://lilachnoga.co.il/login</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/account</loc>
+    <loc>https://lilachnoga.co.il/account</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/order-success</loc>
+    <loc>https://lilachnoga.co.il/order-success</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/courses</loc>
+    <loc>https://lilachnoga.co.il/courses</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/category/:slug</loc>
+    <loc>https://lilachnoga.co.il/category/:slug</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/courses/:slug</loc>
+    <loc>https://lilachnoga.co.il/courses/:slug</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/lesson/:lessonId</loc>
+    <loc>https://lilachnoga.co.il/lesson/:lessonId</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/my-learning</loc>
+    <loc>https://lilachnoga.co.il/my-learning</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/certificate/:code</loc>
+    <loc>https://lilachnoga.co.il/certificate/:code</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/thank-you</loc>
+    <loc>https://lilachnoga.co.il/thank-you</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/privacy</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/terms</loc>
+    <loc>https://lilachnoga.co.il/privacy</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/accessibility</loc>
+    <loc>https://lilachnoga.co.il/terms</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/courses</loc>
+    <loc>https://lilachnoga.co.il/accessibility</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilachnoga.co.il/courses</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/courses/svd-havtyvt-38alvm</loc>
+    <loc>https://lilachnoga.co.il/courses/svd-havtyvt-38alvm</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://messages-from-the-world-of-cre.zappy5.app/courses/mdyttsyyt-alkymyt-hahbh-1qn9fc</loc>
+    <loc>https://lilachnoga.co.il/courses/mdyttsyyt-alkymyt-hahbh-1qn9fc</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
