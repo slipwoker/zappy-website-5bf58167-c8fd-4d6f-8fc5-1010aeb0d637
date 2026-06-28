@@ -1,10 +1,30 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:39:42.744Z",
+  "generated_at": "2026-06-28T18:55:47.351Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 1,
+  "count": 2,
   "products": [
+    {
+      "id": "92ab873b-276c-44d1-a8e2-6ba9eeee6214",
+      "slug": "svd-havtyvt-38alvm",
+      "name": "סוד האותיות",
+      "name_translations": {},
+      "description": "כאן יהיה תיאור ממש ארוך",
+      "short_description": "כאן יופיע תיאור קצר",
+      "sku": null,
+      "brand": null,
+      "price": 1069,
+      "base_price": 1069,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/svd-havtyvt-38alvm",
+      "categories": [],
+      "updated_at": "2026-06-28T18:45:54.924Z"
+    },
     {
       "id": "daf7fec2-0ebb-4967-b502-43b9c8ce8cf1",
       "slug": "mdyttsyyt-alkymyt-hahbh-1qn9fc",
