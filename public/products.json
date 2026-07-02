@@ -1,10 +1,30 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-02T09:42:08.713Z",
+  "generated_at": "2026-07-02T09:43:40.786Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
-  "count": 2,
+  "count": 3,
   "products": [
+    {
+      "id": "61d2516f-6b81-4085-b15c-1eac7db99882",
+      "slug": "mdyttsyyh-x-wqptu7",
+      "name": "מדיטצייה X",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lilachnoga.co.il/product/mdyttsyyh-x-wqptu7",
+      "categories": [],
+      "updated_at": "2026-07-02T09:42:59.403Z"
+    },
     {
       "id": "92ab873b-276c-44d1-a8e2-6ba9eeee6214",
       "slug": "svd-havtyvt-38alvm",
