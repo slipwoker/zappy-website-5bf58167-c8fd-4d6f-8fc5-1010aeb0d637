@@ -94,6 +94,7 @@ Information about WCAG compliance and accessibility features.
 https://lilachnoga.co.il/product/kvd-hsbybvn-imgkat
 - Price: 0.00 ILS
 - Availability: In stock
+- Image: https://lilachnoga.co.il/assets/course-e58dbaa3-4789-47a1-9d85-e222ced0f2a5-trailer-thumb.jpg
 
 ### מדיטצייה X
 https://lilachnoga.co.il/product/mdyttsyyh-x-wqptu7

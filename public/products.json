@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-05T12:07:20.874Z",
+  "generated_at": "2026-07-05T12:19:20.490Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
   "count": 4,
@@ -18,12 +18,14 @@
       "base_price": 0,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://lilachnoga.co.il/assets/course-e58dbaa3-4789-47a1-9d85-e222ced0f2a5-trailer-thumb.jpg"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://lilachnoga.co.il/product/kvd-hsbybvn-imgkat",
       "categories": [],
-      "updated_at": "2026-07-05T12:06:49.159Z"
+      "updated_at": "2026-07-05T12:18:48.958Z"
     },
     {
       "id": "61d2516f-6b81-4085-b15c-1eac7db99882",
