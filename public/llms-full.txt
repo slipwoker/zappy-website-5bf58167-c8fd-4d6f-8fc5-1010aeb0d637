@@ -5782,8 +5782,8 @@ Description: מסרים מעולם היצירה - תודה על פנייתך
 ## Product Catalog
 
 ### קוד הסביבון
-URL: https://lilachnoga.co.il/product/kvd-hsbybvn-imgkat
-Price: 0.00 ILS
+URL: https://lilachnoga.co.il/product/kvd-hsbybvn-3cev3b
+Price: 360.00 ILS
 Availability: In stock
 
 ---

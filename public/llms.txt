@@ -91,10 +91,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 4**
 
 ### קוד הסביבון
-https://lilachnoga.co.il/product/kvd-hsbybvn-imgkat
-- Price: 0.00 ILS
+https://lilachnoga.co.il/product/kvd-hsbybvn-3cev3b
+- Price: 360.00 ILS
 - Availability: In stock
-- Image: https://lilachnoga.co.il/assets/course-e58dbaa3-4789-47a1-9d85-e222ced0f2a5-trailer-thumb.jpg
+- Description: קוד הסביבון הפנימי
+- Image: https://lilachnoga.co.il/assets/product-1783253302677-hxbyoh.webp
 
 ### מדיטצייה X
 https://lilachnoga.co.il/product/mdyttsyyh-x-wqptu7
