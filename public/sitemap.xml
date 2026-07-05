@@ -55,12 +55,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lilachnoga.co.il/thank-you</loc>
-    <lastmod>2026-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://lilachnoga.co.il/courses</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,6 +91,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://lilachnoga.co.il/thank-you</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://lilachnoga.co.il/privacy</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -121,7 +121,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lilachnoga.co.il/courses/kvd-hsbybvn-inq2jw</loc>
+    <loc>https://lilachnoga.co.il/courses/kvd-hsbybvn-wpcwqe</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
