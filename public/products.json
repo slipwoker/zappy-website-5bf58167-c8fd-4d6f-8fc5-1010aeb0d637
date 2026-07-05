@@ -1,21 +1,21 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-05T12:23:07.633Z",
+  "generated_at": "2026-07-05T12:35:51.309Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
   "count": 4,
   "products": [
     {
       "id": "e58dbaa3-4789-47a1-9d85-e222ced0f2a5",
-      "slug": "kvd-hsbybvn-i29naz",
+      "slug": "kvd-hsbybvn-inq2jw",
       "name": "קוד הסביבון",
       "name_translations": {},
       "description": "",
       "short_description": "קוד הסביבון הפנימי",
       "sku": null,
       "brand": null,
-      "price": 360,
-      "base_price": 360,
+      "price": 0,
+      "base_price": 0,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -23,9 +23,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://lilachnoga.co.il/product/kvd-hsbybvn-i29naz",
+      "url": "https://lilachnoga.co.il/product/kvd-hsbybvn-inq2jw",
       "categories": [],
-      "updated_at": "2026-07-05T12:22:35.939Z"
+      "updated_at": "2026-07-05T12:35:26.590Z"
     },
     {
       "id": "61d2516f-6b81-4085-b15c-1eac7db99882",

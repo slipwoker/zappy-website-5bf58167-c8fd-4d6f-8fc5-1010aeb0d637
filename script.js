@@ -12519,6 +12519,10 @@ async function loadRelatedProducts(currentProduct, t) {
           'html[dir="rtl"] .navbar .zappy-nav-more-item>.sub-menu{left:0!important;right:auto!important;}' +
           '.navbar .zappy-nav-more-item:hover>.sub-menu,.navbar .zappy-nav-more-item:focus-within>.sub-menu,.navbar .zappy-nav-more-item.open>.sub-menu{opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:translateY(0)!important;}' +
           '.zappy-nav-more-item>.sub-menu>li{display:block!important;width:100%!important;flex:0 0 auto!important;}' +
+          /* Mobile-only items (hamburger-overlay contact CTA) must never render
+             inside the desktop More panel — the display:block above would
+             otherwise resurrect them there (duplicate CTA bug, 2026-07). */
+          '.zappy-nav-more-item>.sub-menu>li.mobile-contact-link,.zappy-nav-more-item>.sub-menu>li.nav-cta-mobile-item,.zappy-nav-more-item>.sub-menu>li.mobile-only{display:none!important;}' +
           '.zappy-nav-more-item>.sub-menu>li>a{display:block!important;white-space:nowrap!important;padding:10px 16px!important;}' +
           '.zappy-nav-more-item .sub-menu .sub-menu{position:static!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:none!important;box-shadow:none!important;min-width:0!important;padding-inline-start:12px!important;}' +
           '.zappy-nav-more-item>.sub-menu>li>a .dropdown-arrow,.zappy-nav-more-item>.sub-menu .mobile-submenu-toggle{display:none!important;}' +
@@ -12786,7 +12790,15 @@ async function loadRelatedProducts(currentProduct, t) {
           guard++;
           if (!rowOverflowsAtWidth(menu, Math.ceil(naturalMenuWidth(menu)))) break;
           var reals = Array.prototype.filter.call(menu.children, function(li) {
-            return li !== more && li.tagName === 'LI';
+            if (li === more || li.tagName !== 'LI') return false;
+            // Never drain mobile-only items (the hamburger-overlay contact CTA
+            // <li class="mobile-contact-link nav-cta-mobile-item">): they are
+            // display:none on desktop and take no row space, but once moved
+            // into the More panel its display:block li rule made them visible,
+            // duplicating the navbar CTA inside "More" (bug 2026-07).
+            if (li.classList && (li.classList.contains('mobile-contact-link') || li.classList.contains('nav-cta-mobile-item') || li.classList.contains('mobile-only'))) return false;
+            try { if (getComputedStyle(li).display === 'none') return false; } catch (e) {}
+            return true;
           });
           if (reals.length <= 1) break;
           if (!more) {
