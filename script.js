@@ -819,23 +819,31 @@ function stripHtmlToText(html) {
     if (cartDiscountDataLoaded && customerDiscountInSync) return Promise.resolve();
     if (cartDiscountDataLoadPromise) return cartDiscountDataLoadPromise;
 
-    var tasks = [];
+    var taskMetas = [];
     if (!cartDiscountDataLoaded) {
-      tasks.push(fetchSeasonalDiscounts());
-      tasks.push(fetchQuantityBundles());
+      taskMetas.push({ key: 'seasonal', run: fetchSeasonalDiscounts });
+      taskMetas.push({ key: 'bundle', run: fetchQuantityBundles });
     }
     if (customerToken && cartDiscountCustomerTokenLoaded !== customerToken) {
-      tasks.push(fetchCustomerDiscount());
+      taskMetas.push({ key: 'customer', run: fetchCustomerDiscount });
     } else if (!customerToken && cartDiscountCustomerTokenLoaded) {
-      tasks.push(fetchCustomerDiscount());
+      taskMetas.push({ key: 'customer', run: fetchCustomerDiscount });
     }
 
-    cartDiscountDataLoadPromise = Promise.allSettled(tasks).then(function() {
-      cartDiscountDataLoaded = true;
-      if (customerToken) {
-        cartDiscountCustomerTokenLoaded = customerToken;
-      } else {
-        cartDiscountCustomerTokenLoaded = '';
+    cartDiscountDataLoadPromise = Promise.all(
+      taskMetas.map(function(meta) {
+        return meta.run().then(function(ok) { return { key: meta.key, ok: ok !== false }; });
+      })
+    ).then(function(results) {
+      var neededSeasonal = taskMetas.some(function(m) { return m.key === 'seasonal'; });
+      var neededBundle = taskMetas.some(function(m) { return m.key === 'bundle'; });
+      var seasonalOk = !neededSeasonal || results.some(function(r) { return r.key === 'seasonal' && r.ok; });
+      var bundleOk = !neededBundle || results.some(function(r) { return r.key === 'bundle' && r.ok; });
+      if (seasonalOk && bundleOk) cartDiscountDataLoaded = true;
+
+      var customerResult = results.find(function(r) { return r.key === 'customer'; });
+      if (customerResult && customerResult.ok) {
+        cartDiscountCustomerTokenLoaded = customerToken || '';
       }
       updateCartDrawerSummary();
       if (typeof updateOrderTotals === 'function' &&
@@ -13122,6 +13130,8 @@ async function loadRelatedProducts(currentProduct, t) {
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
 
 /* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V2 */
+
+/* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V3 */
 
 /* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V1 */
 
