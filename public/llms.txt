@@ -42,6 +42,10 @@ https://lilachnoga.co.il/account
 https://lilachnoga.co.il/order-success
 תודה שנרשמת לקורס
 
+### תודה על פנייתך
+https://lilachnoga.co.il/thank-you
+מסרים מעולם היצירה - תודה על פנייתך
+
 ### Courses
 https://lilachnoga.co.il/courses
 Browse all available courses.
@@ -66,10 +70,6 @@ Your enrolled courses and progress.
 https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
 
-### תודה על פנייתך
-https://lilachnoga.co.il/thank-you
-מסרים מעולם היצירה - תודה על פנייתך
-
 ## Legal & Policy
 
 ### Privacy Policy
@@ -91,7 +91,7 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 4**
 
 ### קוד הסביבון
-https://lilachnoga.co.il/product/kvd-hsbybvn-dxmv51
+https://lilachnoga.co.il/product/kvd-hsbybvn-v3676u
 - Price: 360.00 ILS
 - Availability: In stock
 - Description: קוד הסביבון הפנימי
