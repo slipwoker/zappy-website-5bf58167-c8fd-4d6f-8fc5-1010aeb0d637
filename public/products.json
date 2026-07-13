@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-13T21:06:05.776Z",
+  "generated_at": "2026-07-13T21:14:34.599Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
   "count": 4,
@@ -29,23 +29,25 @@
     },
     {
       "id": "61d2516f-6b81-4085-b15c-1eac7db99882",
-      "slug": "mdyttsyyh-x-wqptu7",
-      "name": "מדיטצייה X",
+      "slug": "shary-h-astrvlvgyh-8h4xx9",
+      "name": "שערי ה אסטרולוגיה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 0,
-      "base_price": 0,
+      "price": 899,
+      "base_price": 899,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://lilachnoga.co.il/assets/product-1783976798003-sbcfb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://lilachnoga.co.il/product/mdyttsyyh-x-wqptu7",
+      "url": "https://lilachnoga.co.il/product/shary-h-astrvlvgyh-8h4xx9",
       "categories": [],
-      "updated_at": "2026-07-02T09:45:36.029Z"
+      "updated_at": "2026-07-13T21:14:16.071Z"
     },
     {
       "id": "92ab873b-276c-44d1-a8e2-6ba9eeee6214",
