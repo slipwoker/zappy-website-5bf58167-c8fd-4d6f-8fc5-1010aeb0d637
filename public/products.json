@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-13T21:14:47.667Z",
+  "generated_at": "2026-07-13T21:15:23.055Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
   "count": 4,
@@ -29,10 +29,10 @@
     },
     {
       "id": "61d2516f-6b81-4085-b15c-1eac7db99882",
-      "slug": "shary-h-astrvlvgyh-8h4xx9",
+      "slug": "shary-h-astrvlvgyh-thtl0b",
       "name": "שערי ה אסטרולוגיה",
       "name_translations": {},
-      "description": "",
+      "description": "קורס בן 13 שיעורים, שיסייע לכם לסובב את הסיבוב השני במפתח. הקורס מנגיש למידה רחבה ומקיפה של 12 מזלות ההורוסקופ, בה גלגל המזלות מציין את מצב הנפש שאיתה הגענו לעולם, משמע הגורלות שלנו, והבתים הקוסמיים הם האירועים המשתנים, כמו עונות השנה בחיינו, אשר משפיעים על המסלול הנשמתי של האדם. נמצא גם את האופק, המזל העולה, וכיצד השעה שבה נולדנו מובילה לניתוח האישיות המדויק על פי המערך הקוסמי שקיים בזמן הלידה..",
       "short_description": null,
       "sku": null,
       "brand": null,
@@ -45,9 +45,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://lilachnoga.co.il/product/shary-h-astrvlvgyh-8h4xx9",
+      "url": "https://lilachnoga.co.il/product/shary-h-astrvlvgyh-thtl0b",
       "categories": [],
-      "updated_at": "2026-07-13T21:14:16.071Z"
+      "updated_at": "2026-07-13T21:14:51.041Z"
     },
     {
       "id": "92ab873b-276c-44d1-a8e2-6ba9eeee6214",
