@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T09:10:19.308Z",
+  "generated_at": "2026-07-16T10:54:00.947Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
   "count": 4,
@@ -51,23 +51,25 @@
     },
     {
       "id": "92ab873b-276c-44d1-a8e2-6ba9eeee6214",
-      "slug": "svd-havtyvt-38alvm",
+      "slug": "svd-havtyvt-6y5845",
       "name": "סוד האותיות",
       "name_translations": {},
-      "description": "כאן יהיה תיאור ממש ארוך",
-      "short_description": "כאן יופיע תיאור קצר",
+      "description": "העולם נברא בכוח המילה, משמע כוח האותיות. האותיות שבשמנו ניתנו לנו מהבריאה, ודרך הורינו שהיוו את הצינור להעברת המסר.\nבמרוצת השנים נוכחנו לגלות כי הוספת שם או שינוי שם יכולים להפוך את מכלול חיינו ואת גורלנו באופן מוחלט. האם תרצו לדעת איך לעשות זאת באופן עצמאי? האם תרצו לגלות את סוד האותיות ועולם הנסתר?",
+      "short_description": null,
       "sku": null,
       "brand": null,
       "price": 1069,
       "base_price": 1069,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://lilachnoga.co.il/assets/product-1784199163789-vr02wd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://lilachnoga.co.il/product/svd-havtyvt-38alvm",
+      "url": "https://lilachnoga.co.il/product/svd-havtyvt-6y5845",
       "categories": [],
-      "updated_at": "2026-06-28T18:45:54.924Z"
+      "updated_at": "2026-07-16T10:53:35.582Z"
     },
     {
       "id": "daf7fec2-0ebb-4967-b502-43b9c8ce8cf1",

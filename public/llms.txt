@@ -42,10 +42,6 @@ https://lilachnoga.co.il/account
 https://lilachnoga.co.il/order-success
 תודה שנרשמת לקורס
 
-### תודה על פנייתך
-https://lilachnoga.co.il/thank-you
-מסרים מעולם היצירה - תודה על פנייתך
-
 ### Courses
 https://lilachnoga.co.il/courses
 Browse all available courses.
@@ -69,6 +65,10 @@ Your enrolled courses and progress.
 ### Certificate
 https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
+
+### תודה על פנייתך
+https://lilachnoga.co.il/thank-you
+מסרים מעולם היצירה - תודה על פנייתך
 
 ## Legal & Policy
 
@@ -105,10 +105,11 @@ https://lilachnoga.co.il/product/shary-hastrvlvgyh-mi9hzc
 - Image: https://lilachnoga.co.il/assets/product-1783976798003-sbcfb.webp
 
 ### סוד האותיות
-https://lilachnoga.co.il/product/svd-havtyvt-38alvm
+https://lilachnoga.co.il/product/svd-havtyvt-6y5845
 - Price: 1069.00 ILS
 - Availability: In stock
-- Description: כאן יופיע תיאור קצר
+- Description: העולם נברא בכוח המילה, משמע כוח האותיות. האותיות שבשמנו ניתנו לנו מהבריאה, ודרך הורינו שהיוו את הצינור להעברת המסר. במרוצת השנים נוכחנו לגלות כי הוספת שם או שינוי שם יכולים להפוך את מכלול חיינו ואת גורלנו באופן מוחלט. האם תרצו לדעת איך לעשות זאת באופן עצמאי? האם תרצו לגלות את סוד האותיות ועולם הנסתר?
+- Image: https://lilachnoga.co.il/assets/product-1784199163789-vr02wd.webp
 
 ### מדיטציית אלכימית האהבה
 https://lilachnoga.co.il/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
