@@ -1,30 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T12:43:53.933Z",
+  "generated_at": "2026-07-16T12:45:47.144Z",
   "base_url": "https://lilachnoga.co.il",
   "currency": "ILS",
-  "count": 5,
+  "count": 3,
   "products": [
-    {
-      "id": "b8dfc54b-af99-482f-ab71-5e5f838ff927",
-      "slug": "kvrs-hshpa-6q5khc",
-      "name": "קורס השפע",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://lilachnoga.co.il/product/kvrs-hshpa-6q5khc",
-      "categories": [],
-      "updated_at": "2026-07-16T12:33:17.217Z"
-    },
     {
       "id": "e58dbaa3-4789-47a1-9d85-e222ced0f2a5",
       "slug": "kvd-hsbybvn-2mv74j",
@@ -90,26 +70,6 @@
       "url": "https://lilachnoga.co.il/product/svd-havtyvt-6y5845",
       "categories": [],
       "updated_at": "2026-07-16T10:54:17.437Z"
-    },
-    {
-      "id": "daf7fec2-0ebb-4967-b502-43b9c8ce8cf1",
-      "slug": "mdyttsyyt-alkymyt-hahbh-1qn9fc",
-      "name": "מדיטציית אלכימית האהבה",
-      "name_translations": {},
-      "description": "מדיטציה מונחית חווייתית המשלבת אלכימיה פנימית, דמיון מודרך ותדרי אהבה. המסע כולל חיבור ללב, שחרור חסימות, והתמרת אנרגיה — בליווי הקול המרגיע של לילך נגה.",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 50,
-      "base_price": 50,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://lilachnoga.co.il/product/mdyttsyyt-alkymyt-hahbh-1qn9fc",
-      "categories": [],
-      "updated_at": "2026-06-25T09:44:59.056Z"
     }
   ]
 }

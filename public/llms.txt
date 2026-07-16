@@ -42,10 +42,6 @@ https://lilachnoga.co.il/account
 https://lilachnoga.co.il/order-success
 תודה שנרשמת לקורס
 
-### תודה על פנייתך
-https://lilachnoga.co.il/thank-you
-מסרים מעולם היצירה - תודה על פנייתך
-
 ### Courses
 https://lilachnoga.co.il/courses
 Browse all available courses.
@@ -70,6 +66,10 @@ Your enrolled courses and progress.
 https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
 
+### תודה על פנייתך
+https://lilachnoga.co.il/thank-you
+מסרים מעולם היצירה - תודה על פנייתך
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -88,12 +88,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 5**
-
-### קורס השפע
-https://lilachnoga.co.il/product/kvrs-hshpa-6q5khc
-- Price: 0.00 ILS
-- Availability: In stock
+**Total active products: 3**
 
 ### קוד הסביבון
 https://lilachnoga.co.il/product/kvd-hsbybvn-2mv74j
@@ -115,12 +110,6 @@ https://lilachnoga.co.il/product/svd-havtyvt-6y5845
 - Availability: In stock
 - Description: העולם נברא בכוח המילה, משמע כוח האותיות. האותיות שבשמנו ניתנו לנו מהבריאה, ודרך הורינו שהיוו את הצינור להעברת המסר. במרוצת השנים נוכחנו לגלות כי הוספת שם או שינוי שם יכולים להפוך את מכלול חיינו ואת גורלנו באופן מוחלט. האם תרצו לדעת איך לעשות זאת באופן עצמאי? האם תרצו לגלות את סוד האותיות ועולם הנסתר?
 - Image: https://lilachnoga.co.il/assets/product-1784199163789-vr02wd.webp
-
-### מדיטציית אלכימית האהבה
-https://lilachnoga.co.il/product/mdyttsyyt-alkymyt-hahbh-1qn9fc
-- Price: 50.00 ILS
-- Availability: In stock
-- Description: מדיטציה מונחית חווייתית המשלבת אלכימיה פנימית, דמיון מודרך ותדרי אהבה. המסע כולל חיבור ללב, שחרור חסימות, והתמרת אנרגיה — בליווי הקול המרגיע של לילך נגה.
 
 ---
 
