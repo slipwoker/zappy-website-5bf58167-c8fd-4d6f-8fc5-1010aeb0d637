@@ -12578,6 +12578,15 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .featured-products-section {
   display: none !important;
 }
+
+.index-hero-section div.zappy-inserted-element:nth-of-type(3) > div {
+  border-radius: 50% !important;
+  overflow: hidden !important;
+}
+
+.index-hero-section #zappy-element-1782381024295-q7uswe3d0 img {
+  border-radius: 0 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
