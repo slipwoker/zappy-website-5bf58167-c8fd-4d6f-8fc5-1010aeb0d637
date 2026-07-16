@@ -12574,6 +12574,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   border-radius: 14px;
   overflow: hidden;
 }
+
+.featured-products-section {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
