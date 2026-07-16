@@ -88,7 +88,12 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 4**
+**Total active products: 5**
+
+### קורס השפע
+https://lilachnoga.co.il/product/kvrs-hshpa-6q5khc
+- Price: 0.00 ILS
+- Availability: In stock
 
 ### קוד הסביבון
 https://lilachnoga.co.il/product/kvd-hsbybvn-2mv74j
