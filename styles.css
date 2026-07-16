@@ -12587,6 +12587,22 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-hero-section #zappy-element-1782381024295-q7uswe3d0 img {
   border-radius: 0 !important;
 }
+
+.courses-catalog-section {
+  background-color: #F8F3EE !important;
+}
+
+#layout-1782386642890 {
+  background-color: #F8F3EE !important;
+}
+
+#layout-1782380832827 {
+  background-color: #F8F3EE !important;
+}
+
+#layout-1782380910784 {
+  background-color: #F8F3EE !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
