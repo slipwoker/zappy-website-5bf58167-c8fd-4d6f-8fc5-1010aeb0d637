@@ -13570,6 +13570,251 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 #ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__bg-image {
   filter: brightness(1.2) contrast(1.05);
 }
+
+/* Added Component Styles */
+.message-circle-section {
+  background: var(--background-color, #F0E6FF);
+  padding: 80px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  text-align: center;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.message-circle-container {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+/* Outer glow ring */
+.circle-outer-glow {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  right: -25px;
+  bottom: -25px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232, 116, 42, 0.15) 0%, rgba(196, 80, 42, 0.05) 50%, transparent 70%);
+  animation: glowPulse 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Outer decorative ring */
+.circle-outer-ring {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border-radius: 50%;
+  border: 2px dashed rgba(26, 10, 62, 0.2);
+  animation: ringRotate 20s linear infinite;
+  pointer-events: none;
+}
+
+/* Main circle */
+.circle-main {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  background: var(--gradient-primary, linear-gradient(135deg, #E8742A 0%, #C4502A 100%));
+  box-shadow: 0 8px 32px rgba(196, 80, 42, 0.35), inset 0 2px 4px rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+}
+
+.circle-main:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 40px rgba(196, 80, 42, 0.5), inset 0 2px 4px rgba(255, 255, 255, 0.25);
+}
+
+.circle-main:active {
+  transform: scale(0.97);
+}
+
+.circle-inner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.circle-label-top {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.circle-message {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle-label-bottom {
+  font-size: 0.8rem;
+  font-weight: 300;
+  opacity: 0.75;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+/* Yellow lights around the circle */
+.light {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FFD700;
+  box-shadow: 0 0 8px 3px rgba(255, 215, 0, 0.7), 0 0 20px 6px rgba(255, 215, 0, 0.35), 0 0 40px 10px rgba(255, 180, 0, 0.2);
+  animation: lightBlink 2s ease-in-out infinite;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Position lights around the circle */
+.light-1 { top: 0; left: 50%; transform: translate(-50%, -50%); animation-delay: 0s; }
+.light-2 { top: 7%; right: 15%; animation-delay: 0.15s; }
+.light-3 { top: 25%; right: 2%; animation-delay: 0.3s; }
+.light-4 { top: 50%; right: -4%; transform: translateY(-50%); animation-delay: 0.45s; }
+.light-5 { bottom: 25%; right: 2%; animation-delay: 0.6s; }
+.light-6 { bottom: 7%; right: 15%; animation-delay: 0.75s; }
+.light-7 { bottom: 0; left: 50%; transform: translate(-50%, 50%); animation-delay: 0.9s; }
+.light-8 { bottom: 7%; left: 15%; animation-delay: 1.05s; }
+.light-9 { bottom: 25%; left: 2%; animation-delay: 1.2s; }
+.light-10 { top: 50%; left: -4%; transform: translateY(-50%); animation-delay: 1.35s; }
+.light-11 { top: 25%; left: 2%; animation-delay: 1.5s; }
+.light-12 { top: 7%; left: 15%; animation-delay: 1.65s; }
+
+/* Description text */
+.message-circle-description {
+  margin-top: 40px;
+  max-width: 500px;
+}
+
+.message-circle-description p {
+  font-size: 1.15rem;
+  color: var(--text-secondary-color, #6B5B95);
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* Animations */
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+@keyframes ringRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes lightBlink {
+  0%, 100% { opacity: 0.4; transform: scale(0.8); box-shadow: 0 0 6px 2px rgba(255, 215, 0, 0.5), 0 0 15px 4px rgba(255, 215, 0, 0.25); }
+  50% { opacity: 1; transform: scale(1.3); box-shadow: 0 0 12px 5px rgba(255, 215, 0, 0.9), 0 0 30px 10px rgba(255, 215, 0, 0.5), 0 0 55px 15px rgba(255, 180, 0, 0.3); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .message-circle-section {
+    padding: 60px 16px 40px;
+  }
+
+  .message-circle-container {
+    width: 260px;
+    height: 260px;
+  }
+
+  .circle-outer-glow {
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+  }
+
+  .circle-outer-ring {
+    top: -12px;
+    left: -12px;
+    right: -12px;
+    bottom: -12px;
+  }
+
+  .circle-main {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+  }
+
+  .circle-message {
+    font-size: 1.6rem;
+  }
+
+  .circle-label-top {
+    font-size: 0.75rem;
+  }
+
+  .circle-label-bottom {
+    font-size: 0.7rem;
+  }
+
+  .light {
+    width: 7px;
+    height: 7px;
+  }
+
+  .message-circle-description p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .message-circle-container {
+    width: 220px;
+    height: 220px;
+  }
+
+  .circle-message {
+    font-size: 1.3rem;
+  }
+
+  .circle-label-top {
+    font-size: 0.7rem;
+  }
+
+  .circle-label-bottom {
+    font-size: 0.65rem;
+  }
+
+  .light {
+    width: 5px;
+    height: 5px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
