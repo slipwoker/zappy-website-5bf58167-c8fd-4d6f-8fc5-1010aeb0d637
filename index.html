@@ -626,6 +626,236 @@
     
     <!-- Mickidum Accessibility Toolbar -->
     
+
+
+    
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #0D0818;
+  color: var(--text-light);
+  direction: rtl;
+  text-align: right;
+  padding-bottom: 80px;
+}
+
+.index-hero-section .hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.index-hero-section .hero-scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(13,8,24,0.45) 0%, rgba(13,8,24,0.7) 70%, rgba(13,8,24,0.85) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.index-hero-section .hero-mandala {
+  position: absolute;
+  top: 5%;
+  right: -5%;
+  width: 320px;
+  height: 320px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.12;
+  color: #C9963A;
+}
+
+.index-hero-section .hero-content-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.index-hero-section .hero-text-group {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.index-hero-section .hero-headline {font-family: 'Cormorant Garamond', serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+  color: #C9963A;
+  margin: 0;}
+
+.index-hero-section .hero-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #F5EDD8;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+  margin: 0;
+  max-width: 600px;
+}
+
+.index-hero-section .hero-description {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #C0B0D0;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+  margin: 0;
+  max-width: 560px;
+}
+
+.index-hero-section .hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.index-hero-section .hero-btn {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  text-align: center;
+}
+
+.index-hero-section .btn-primary {
+  background: linear-gradient(135deg, #E8742A 0%, #C4502A 100%);
+  color: #FFF5E0;
+  border: none;
+  box-shadow: 0 0 32px rgba(232,116,42,0.4);
+}
+
+.index-hero-section .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(232,116,42,0.6);
+}
+
+.index-hero-section .btn-ghost {
+  background: transparent;
+  color: #C9963A;
+  border: 1.5px solid rgba(201,150,58,0.5);
+  backdrop-filter: blur(4px);
+}
+
+.index-hero-section .btn-ghost:hover {
+  background: rgba(201,150,58,0.1);
+  border-color: rgba(201,150,58,0.8);
+  transform: translateY(-3px);
+  color: #F0D080;
+}
+
+/* Bottom Divider */
+.index-hero-section .hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.index-hero-section .hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100vh;
+    padding: 100px 16px 60px;
+    align-items: center;
+  }
+
+  .index-hero-section .hero-content-container {
+    padding: 0;
+  }
+
+  .index-hero-section .hero-text-group {
+    gap: 16px;
+  }
+
+  .index-hero-section .hero-headline {
+    font-size: 2.6rem;
+  }
+
+  .index-hero-section .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .index-hero-section .hero-description {
+    font-size: 0.95rem;
+  }
+
+  .index-hero-section .hero-cta-group {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .index-hero-section .hero-btn {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 24px;
+  }
+
+  .index-hero-section .hero-mandala {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    right: -10%;
+    opacity: 0.08;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+/* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
+
+</style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden;min-height:560px}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 
@@ -686,7 +916,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 
 </style>
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="preload" as="image" href="/assets/business-general-hero-upload-1784546455351-3178il.webp?v=1784546458148" fetchpriority="high" />
+    <link rel="preload" as="image" href="/assets/image-spirituality-personal-developm-section-hero-index-hero-image-1.webp" fetchpriority="high" />
 
     <style id="zappy-dropdown-submenu-styles">
       /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
@@ -1326,46 +1556,48 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 
 
 
-<section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="index-hero-section" style="min-height: 701px !important;" data-zappy-bg-overlay-color="#f52493" data-zappy-bg-overlay-opacity="1" data-zappy-content-align="lower-center"><!-- Full-bleed Background Image -->
-  <div class="index-hero-section__bg-wrap">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1782380930242-l6ryctae7" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; z-index: 1 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center" data-zappy-zoom-wrapper-width="1349px" data-zappy-zoom-wrapper-height="701px"><img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A mystical, expansive seascape at dusk with deep plum and coral tones bleeding across the horizon, soft radiant light breaking through layered clouds, calm and visionary atmosphere for a spirituality and personal development brand" width="1200" height="600" src="/assets/business-general-hero-upload-1784546455351-3178il.webp?v=1784546458148" alt="נוף ים מיסטי בשקיעה עם גוונים סגולים וכתומים" class="index-hero-section__bg-img" data-hero-background="true" data-element-type="image" data-element-id="img-1782380930242-l6ryctae7" style="object-position: 50% 50%; object-fit: cover; width: 100%; height: 100%; display: block !important; margin: 0; position: absolute; inset: 0; z-index: 0 !important; max-width: none; max-height: none" data-zappy-zoom="1" data-zappy-original-width="1349" data-zappy-original-height="701" data-zappy-object-position="50% 50%" data-zappy-hero-img-base-opacity="1" data-zappy-hero-img-base-blend="normal" data-zappy-mobile-object-position="60% 29%" data-zappy-mobile-zoom="1" decoding="async" /></div>
-    <!-- Scrim Overlay -->
-    <div class="index-hero-section__scrim" aria-hidden="true" data-zappy-scrim-base-opacity="88" data-zappy-gradient-scrim="true" style="opacity: 0.0113636;"></div>
-  </div>
+<section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-card" id="index-hero-section">
+  <!-- Background Image -->
+  <img loading="eager" fetchpriority="high" data-hero-bg="true" class="hero-bg-image" data-context="A mystical, atmospheric wide shot of a softly lit sacred geometry pattern or mandala glowing with gold and deep indigo tones, floating in a dark cosmic space. The image evokes spirituality, inner awakening, and connection to higher creative forces. Abstract, ethereal, no text." width="1200" height="600" src="/assets/image-spirituality-personal-developm-section-hero-index-hero-image-1.webp" alt="רקע מיסטי של גאומטריה מקודשת זוהרת" style="position: absolute; object-fit: cover; object-position: 50% 50%; max-width: none; max-height: none; margin: 0; inset: 0; width: 100%; height: 100%" decoding="async" />
 
-  <!-- Sacred Geometry Decorative Motif -->
-  <div class="index-hero-section__mandala" aria-hidden="true">
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="95" fill="none" stroke="#C9963A" stroke-width="0.5" opacity="0.3"/>
-      <circle cx="100" cy="100" r="70" fill="none" stroke="#C9963A" stroke-width="0.5" opacity="0.4"/>
-      <circle cx="100" cy="100" r="45" fill="none" stroke="#C9963A" stroke-width="0.8" opacity="0.5"/>
-      <circle cx="100" cy="100" r="20" fill="none" stroke="#C9963A" stroke-width="1" opacity="0.6"/>
-      <path d="M100,5 L100,195 M5,100 L195,100 M32.8,32.8 L167.2,167.2 M32.8,167.2 L167.2,32.8" stroke="#C9963A" stroke-width="0.5" opacity="0.3"/>
-      <polygon points="100,15 113,55 155,55 121,80 133,120 100,95 67,120 79,80 45,55 87,55" fill="none" stroke="#C9963A" stroke-width="0.8" opacity="0.5"/>
-      <polygon points="100,25 108,45 130,45 112,58 118,78 100,68 82,78 88,58 70,45 92,45" fill="none" stroke="#C9963A" stroke-width="0.6" opacity="0.4"/>
+  <!-- Scrim Overlay -->
+  <div class="hero-scrim" aria-hidden="true"></div>
+
+  <!-- Decorative Sacred Geometry Motif -->
+  <div class="hero-mandala" aria-hidden="true">
+    <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#C9963A" stroke-width="0.8" opacity="0.12">
+      <circle cx="160" cy="160" r="150"/>
+      <circle cx="160" cy="160" r="120"/>
+      <circle cx="160" cy="160" r="90"/>
+      <circle cx="160" cy="160" r="60"/>
+      <path d="M160,10 L160,310 M10,160 L310,160 M53.9,53.9 L266.1,266.1 M266.1,53.9 L53.9,266.1"/>
+      <path d="M160,10 L220,130 L310,160 L220,190 L160,310 L100,190 L10,160 L100,130 Z"/>
+      <path d="M160,10 L190,100 L280,130 L190,160 L160,250 L130,160 L40,130 L130,100 Z"/>
     </svg>
   </div>
 
-  <!-- Text Overlay Group -->
-  <div class="index-hero-section__overlay" data-zappy-align-target="true"><div style="text-align: center; margin-bottom: 24px;">
-  <div data-zappy-zoom-wrapper="true" data-element-id="img-1784548479434-4f5po7jr4" data-element-type="image" data-zappy-zoom-wrapper-width="314px" data-zappy-zoom-wrapper-height="314px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 314px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 314px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img src="/assets/attached-remove_background-1784548427439-p086zi.png?v=1784548427439" alt="מסרים מעולם היצירה" style="width: 100% !important; max-width: none !important; display: block !important; margin: 0px !important; object-fit: cover !important; object-position: 50% 76% !important; position: absolute !important; left: 0% !important; top: 0% !important; height: 100% !important; max-height: none !important; margin-top: 225px" data-element-type="image" data-element-id="img-1784548479434-4f5po7jr4" data-zappy-zoom="1" data-zappy-abs-align="true" data-zappy-object-position="50% 76%" decoding="async" /></div><h3 class="index-hero-section__subtitle" style="outline: none;" data-element-id="move-1784548483992-95wzfcz1">מרגישים שהתעוררתם רוחנית?<br />באיזה שלב אתם בהתעוררות הרוחנית שלכם?<br />גלו עולם של תודעה, צמיחה רוחנית והשראה פנימית דרך קורסים, מאמרים מעמיקים וערוץ הקלטות עשיר.</h3>
-</div>
+  <!-- Floating Logo -->
+  <div class="hero-logo-float">
+    <img src="/assets/attached-remove_background-1784548427439-p086zi.png?v=1784548427439" alt="מסרים מעולם היצירה" decoding="async" />
+  </div>
 
-<div class="index-hero-section__cta-group">
-  <a href="/courses" class="index-hero-section__cta index-hero-section__cta--primary" style="outline: none; color: #ffffff; border-color: rgb(255, 215, 0); background-color: transparent; background-image: none;" data-native-element="true" data-element-id="btn-1782390938546-69rcanm50" data-element-type="button" data-text-color="light">קורסים</a>
-  <a href="/contact" class="index-hero-section__cta index-hero-section__cta--secondary" data-element-id="zappy-drop-y4mcj53vq" data-element-type="button" style="outline: none;">צרו קשר</a>
-</div></div>
+  <!-- Content Overlay -->
+  <div class="hero-content-container">
+    <div class="hero-text-group">
+      <h1 class="hero-headline">מסרים מעולם היצירה</h1>
+      <h3 class="hero-subtitle">מסע רוחני אל תוך התודעה, היצירה והחיבור הפנימי</h3>
+      <p class="hero-description">פלטפורמה רוחנית המשלבת קורסים מקוונים, תכנים מעוררי השראה וערוץ הקלטות ייחודי – כל מה שנשמתך צריכה כדי לצמוח.</p>
+      <div class="hero-cta-group">
+        <a href="#courses" class="btn-primary hero-btn">גלה את הקורסים</a>
+        <a href="#blog" class="btn-ghost hero-btn">קרא עוד בבלוג</a>
+      </div>
+    </div>
+  </div>
 
-  <!-- Bottom Divider: Soft gradient mist fade with subtle wave SVG -->
-  <div class="index-hero-section__divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="index-hero-mist-fade" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#0D0818" stop-opacity="0"/>
-          <stop offset="100%" stop-color="#0D0818" stop-opacity="1"/>
-        </linearGradient>
-      </defs>
-      <path d="M0,100 L0,50 Q150,30 300,55 T600,40 Q750,55 900,35 T1200,50 L1200,100 Z" fill="#F8F3EE"/>
+  <!-- Bottom Fade Divider -->
+  <div class="hero-divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,50 Q50,45 100,52 T200,48 Q250,52 300,45 T400,50 Q450,48 500,52 T600,45 Q650,50 700,48 T800,52 Q850,45 900,50 T1000,48 Q1050,52 1100,45 T1200,50 L1200,80 Z" fill="#F8F3EE"/>
     </svg>
   </div>
 </section>
