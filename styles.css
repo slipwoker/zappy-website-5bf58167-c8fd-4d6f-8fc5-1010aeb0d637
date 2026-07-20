@@ -12838,6 +12838,404 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     justify-content: center;
   }
 }
+
+/* Added Component Styles */
+.hero-cosmic-gateway {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #0a0520;
+}
+
+.hero-cosmic-gateway__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-cosmic-gateway__bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.hero-cosmic-gateway__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 5, 32, 0.55) 0%,
+    rgba(10, 5, 32, 0.35) 40%,
+    rgba(10, 5, 32, 0.55) 100%
+  );
+}
+
+.hero-cosmic-gateway__content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 720px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+/* Logo Wrapper */
+.hero-cosmic-gateway__logo-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.hero-cosmic-gateway__logo-glow {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(232, 116, 42, 0.35) 0%,
+    rgba(196, 80, 42, 0.15) 40%,
+    transparent 70%
+  );
+  animation: logoGlowPulse 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero-cosmic-gateway__logo-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  box-shadow: 
+    0 0 30px rgba(232, 116, 42, 0.25),
+    0 0 60px rgba(196, 80, 42, 0.12),
+    inset 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-cosmic-gateway__logo-container:hover {
+  transform: scale(1.05);
+  box-shadow: 
+    0 0 40px rgba(232, 116, 42, 0.4),
+    0 0 80px rgba(196, 80, 42, 0.2),
+    inset 0 0 25px rgba(255, 255, 255, 0.08);
+}
+
+.hero-cosmic-gateway__logo-text {
+  font-family: system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 20px rgba(232, 116, 42, 0.6);
+}
+
+.hero-cosmic-gateway__logo-subtext {
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Sparkles */
+.hero-cosmic-gateway__logo-sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 8px 2px rgba(232, 116, 42, 0.8), 0 0 16px 4px rgba(232, 116, 42, 0.4);
+  animation: sparkleFloat 2.5s ease-in-out infinite;
+}
+
+.hero-cosmic-gateway__logo-sparkle--1 {
+  top: 10px;
+  right: -8px;
+  animation-delay: 0s;
+}
+
+.hero-cosmic-gateway__logo-sparkle--2 {
+  bottom: 12px;
+  left: -6px;
+  animation-delay: 0.6s;
+}
+
+.hero-cosmic-gateway__logo-sparkle--3 {
+  top: -6px;
+  left: 20px;
+  animation-delay: 1.2s;
+  width: 4px;
+  height: 4px;
+}
+
+.hero-cosmic-gateway__logo-sparkle--4 {
+  bottom: -4px;
+  right: 18px;
+  animation-delay: 1.8s;
+  width: 5px;
+  height: 5px;
+}
+
+/* Title */
+.hero-cosmic-gateway__title {
+  font-family: system-ui, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-cosmic-gateway__title-accent {
+  background: var(--gradient-primary, linear-gradient(135deg, #E8742A 0%, #C4502A 100%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/* Subtitle */
+.hero-cosmic-gateway__subtitle {
+  font-family: system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0;
+}
+
+/* Actions */
+.hero-cosmic-gateway__actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.hero-cosmic-gateway__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 160px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cosmic-gateway__btn--primary {
+  background: var(--gradient-primary, linear-gradient(135deg, #E8742A 0%, #C4502A 100%));
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 20px rgba(232, 116, 42, 0.4);
+}
+
+.hero-cosmic-gateway__btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(232, 116, 42, 0.55);
+}
+
+.hero-cosmic-gateway__btn--primary:focus-visible {
+  outline: 3px solid var(--accent-color, #00E5CC);
+  outline-offset: 3px;
+}
+
+.hero-cosmic-gateway__btn--secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.hero-cosmic-gateway__btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.55);
+  transform: translateY(-2px);
+}
+
+.hero-cosmic-gateway__btn--secondary:focus-visible {
+  outline: 3px solid var(--accent-color, #00E5CC);
+  outline-offset: 3px;
+}
+
+/* Scroll Indicator */
+.hero-cosmic-gateway__scroll-indicator {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  animation: scrollBounce 2s ease-in-out infinite;
+  z-index: 2;
+}
+
+.hero-cosmic-gateway__scroll-text {
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.hero-cosmic-gateway__scroll-arrow {
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Animations */
+@keyframes logoGlowPulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes sparkleFloat {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(0) scale(0.5);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-8px) scale(1.2);
+  }
+  60% {
+    opacity: 0.6;
+    transform: translateY(-16px) scale(0.8);
+  }
+  80% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.3);
+  }
+}
+
+@keyframes scrollBounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-cosmic-gateway__title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-cosmic-gateway__subtitle {
+    font-size: 1rem;
+  }
+  
+  .hero-cosmic-gateway__logo-container {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hero-cosmic-gateway__logo-text {
+    font-size: 1.2rem;
+  }
+  
+  .hero-cosmic-gateway__logo-subtext {
+    font-size: 0.6rem;
+  }
+  
+  .hero-cosmic-gateway__logo-glow {
+    width: 110px;
+    height: 110px;
+  }
+  
+  .hero-cosmic-gateway__btn {
+    padding: 12px 24px;
+    min-width: 140px;
+    font-size: 0.9rem;
+  }
+  
+  .hero-cosmic-gateway__content {
+    gap: 20px;
+    padding: 30px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-cosmic-gateway__title {
+    font-size: 1.75rem;
+  }
+  
+  .hero-cosmic-gateway__subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .hero-cosmic-gateway__actions {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hero-cosmic-gateway__btn {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .hero-cosmic-gateway__logo-container {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .hero-cosmic-gateway__logo-text {
+    font-size: 1.05rem;
+  }
+  
+  .hero-cosmic-gateway__scroll-indicator {
+    bottom: 20px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
