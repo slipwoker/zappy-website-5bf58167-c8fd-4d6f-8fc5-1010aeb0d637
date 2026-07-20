@@ -13566,6 +13566,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     border: 1px solid #ccc;
   }
 }
+
+#ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__bg-image {
+  filter: brightness(1.2) contrast(1.05);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
