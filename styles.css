@@ -13670,6 +13670,24 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   z-index: 1;
   pointer-events: none;
 }
+
+.floating-logo-section {
+  position: relative;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.floating-logo-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom, rgb(8, 4, 26) 0%, rgba(8, 4, 26, 0.7) 40%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
