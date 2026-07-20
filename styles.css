@@ -12660,6 +12660,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   height: auto;
   display: block;
 }
+
+.index-hero-section .hero-logo-float {
+  margin-top: 130px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
