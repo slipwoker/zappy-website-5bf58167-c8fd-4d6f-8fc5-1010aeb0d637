@@ -13570,6 +13570,23 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 #ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__bg-image {
   filter: brightness(1.2) contrast(1.05);
 }
+
+.floating-logo-section {
+  position: relative;
+  z-index: 2;
+}
+
+.floating-logo-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(10,5,32,0.85) 100%);
+  z-index: 5;
+  pointer-events: none;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
