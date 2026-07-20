@@ -12635,6 +12635,9 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+#index-hero-section .index-hero-section__overlay > div:first-child {
+  margin-top: 75px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
