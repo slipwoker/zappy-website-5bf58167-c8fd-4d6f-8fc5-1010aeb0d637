@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&amp;display=swap');
 
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
@@ -13687,6 +13687,11 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   background: linear-gradient(to bottom, rgb(8, 4, 26) 0%, rgba(8, 4, 26, 0.7) 40%, transparent 100%);
   z-index: 2;
   pointer-events: none;
+}
+
+#ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__title {
+  font-family: 'Nadav', 'Heebo', 'Assistant', sans-serif !important;
+  text-shadow: 0 0 18px rgba(138, 43, 226, 0.8), 0 0 35px rgba(138, 43, 226, 0.5), 0 0 8px rgba(138, 43, 226, 0.9);
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
