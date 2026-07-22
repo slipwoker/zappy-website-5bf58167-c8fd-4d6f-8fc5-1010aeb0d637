@@ -42,10 +42,6 @@ https://lilachnoga.co.il/account
 https://lilachnoga.co.il/order-success
 תודה שנרשמת לקורס
 
-### תודה על פנייתך
-https://lilachnoga.co.il/thank-you
-מסרים מעולם היצירה - תודה על פנייתך
-
 ### Courses
 https://lilachnoga.co.il/courses
 Browse all available courses.
@@ -69,6 +65,10 @@ Your enrolled courses and progress.
 ### Certificate
 https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
+
+### תודה על פנייתך
+https://lilachnoga.co.il/thank-you
+מסרים מעולם היצירה - תודה על פנייתך
 
 ## Legal & Policy
 
@@ -98,7 +98,7 @@ https://lilachnoga.co.il/product/kvd-hsbybvn-2mv74j
 - Image: https://lilachnoga.co.il/assets/product-1783253302677-hxbyoh.webp
 
 ### שערי האסטרולוגיה
-https://lilachnoga.co.il/product/shary-hastrvlvgyh-mi9hzc
+https://lilachnoga.co.il/product/shary-hastrvlvgyh-onctcd
 - Price: 899.00 ILS
 - Availability: In stock
 - Description: קורס בן 13 שיעורים, שיסייע לכם לסובב את הסיבוב השני במפתח. הקורס מנגיש למידה רחבה ומקיפה של 12 מזלות ההורוסקופ, בה גלגל המזלות מציין את מצב הנפש שאיתה הגענו לעולם, משמע הגורלות שלנו, והבתים הקוסמיים הם האירועים המשתנים, כמו עונות השנה בחיינו, אשר משפיעים על המסלול הנשמתי של האדם. נמצא גם את האופק, המזל העולה, וכיצד השעה שבה נולדנו מובילה לניתוח האישיות המדויק על פי המערך הקוסמי שקיים בזמן הלידה..
