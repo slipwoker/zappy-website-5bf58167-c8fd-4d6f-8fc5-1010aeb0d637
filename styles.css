@@ -13748,6 +13748,75 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   background: radial-gradient(circle at 40% 35%, rgba(255, 255, 255, 0.15), rgba(0, 229, 204, 0.15) 70%, rgba(0, 180, 160, 0.5) 100%) !important;
 }
 }
+
+.floating-logo-section .logo-circle-wrapper {
+  width: 380px !important;
+  height: 380px !important;
+}
+
+.floating-logo-section .logo-circle {
+  width: 380px !important;
+  height: 380px !important;
+}
+
+.floating-logo-section .logo-circle-inner {
+  width: 330px !important;
+  height: 330px !important;
+}
+
+.floating-logo-section .logo-circle {
+  box-shadow: 0 0 40px rgba(0, 229, 204, 0.5),
+    0 0 80px rgba(0, 229, 204, 0.35),
+    0 0 120px rgba(0, 229, 204, 0.2),
+    0 0 180px rgba(0, 229, 204, 0.1);
+  border-radius: 50%;
+}
+
+.floating-logo-section .floating-sphere {
+  width: 24px !important;
+  height: 24px !important;
+  background: radial-gradient(circle at 35% 35%, rgba(0, 229, 204, 0.9), rgba(0, 180, 160, 0.5)) !important;
+  box-shadow: 0 0 16px rgba(0, 229, 204, 0.7), 0 0 32px rgba(0, 229, 204, 0.3) !important;
+  border-radius: 50% !important;
+  animation: orbFloat 3s ease-in-out infinite !important;
+}
+
+.floating-logo-section .sphere-1 {
+  animation-delay: 0s !important;
+}
+
+.floating-logo-section .sphere-2 {
+  animation-delay: 0.4s !important;
+}
+
+.floating-logo-section .sphere-3 {
+  animation-delay: 0.8s !important;
+}
+
+.floating-logo-section .sphere-4 {
+  animation-delay: 1.2s !important;
+}
+
+.floating-logo-section .sphere-5 {
+  animation-delay: 1.6s !important;
+}
+
+.floating-logo-section .sphere-6 {
+  animation-delay: 2.0s !important;
+}
+
+.floating-logo-section .sphere-7 {
+  animation-delay: 2.4s !important;
+}
+
+.floating-logo-section .sphere-8 {
+  animation-delay: 2.8s !important;
+}
+
+@keyframes orbFloat {
+  0%, 100% { transform: translateY(0px) scale(1); opacity: 0.8; }
+  50% { transform: translateY(-18px) scale(1.3); opacity: 1; }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
