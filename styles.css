@@ -13734,6 +13734,20 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   text-shadow: 1px 0 0 #fff, 0.9914px 0.1305px 0 #fff, 0.9659px 0.2588px 0 #fff, 0.9239px 0.3827px 0 #fff, 0.866px 0.5px 0 #fff, 0.7934px 0.6088px 0 #fff, 0.7071px 0.7071px 0 #fff, 0.6088px 0.7934px 0 #fff, 0.5px 0.866px 0 #fff, 0.3827px 0.9239px 0 #fff, 2px 2px 0 #3a1a6e, 3px 3px 0 #2d1358, 4px 4px 0 #1f0c42, 5px 5px 0 #12062e, 0 0 18px rgba(138, 43, 226, 0.8), 0 0 35px rgba(138, 43, 226, 0.5), 0 0 60px rgba(180, 100, 255, 0.3) !important;
   color: #ffffff !important;
 }
+
+.floating-logo-section .logo-circle {
+  border-color: rgba(0, 229, 204, 0.55) !important;
+  box-shadow: 0 0 75px rgba(0, 229, 204, 0.35), 0 0 150px rgba(0, 229, 204, 0.15), inset 0 0 48px rgba(255, 255, 255, 0.11) !important;
+  background: radial-gradient(circle at 40% 35%, rgba(255, 255, 255, 0.15), rgba(0, 229, 204, 0.15) 70%, rgba(0, 180, 160, 0.5) 100%) !important;
+}
+
+@media (max-width: 768px) {
+.floating-logo-section .logo-circle {
+  border-color: rgba(0, 229, 204, 0.55) !important;
+  box-shadow: 0 0 75px rgba(0, 229, 204, 0.35), 0 0 150px rgba(0, 229, 204, 0.15), inset 0 0 48px rgba(255, 255, 255, 0.11) !important;
+  background: radial-gradient(circle at 40% 35%, rgba(255, 255, 255, 0.15), rgba(0, 229, 204, 0.15) 70%, rgba(0, 180, 160, 0.5) 100%) !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
