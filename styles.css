@@ -13833,6 +13833,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     -2px -2px 0 rgba(0, 229, 204, 0.25), 2px -2px 0 rgba(0, 229, 204, 0.25), -2px 2px 0 rgba(0, 229, 204, 0.25), 2px 2px 0 rgba(0, 229, 204, 0.25)
   !important;
 }
+
+#ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__title span {
+  color: var(--accent-color, var(--accent, #00E5CC)) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
