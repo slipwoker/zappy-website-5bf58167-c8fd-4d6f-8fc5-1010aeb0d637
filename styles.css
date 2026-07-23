@@ -19314,6 +19314,48 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
     font-size: 0.9rem;
   }
 }
+
+.mystical-portal-section .portal-ring {
+  width: 370px !important;
+  height: 370px !important;
+}
+
+.mystical-portal-section .portal-ring-inner {
+  width: 370px !important;
+  height: 370px !important;
+}
+
+.mystical-portal-section .portal-glow-outer {
+  width: 430px !important;
+  height: 430px !important;
+}
+
+.mystical-portal-section .portal-glow-inner {
+  width: 400px !important;
+  height: 400px !important;
+}
+
+@media (max-width: 768px) {
+.mystical-portal-section .portal-ring {
+  width: 280px !important;
+  height: 280px !important;
+}
+
+.mystical-portal-section .portal-ring-inner {
+  width: 280px !important;
+  height: 280px !important;
+}
+
+.mystical-portal-section .portal-glow-outer {
+  width: 330px !important;
+  height: 330px !important;
+}
+
+.mystical-portal-section .portal-glow-inner {
+  width: 305px !important;
+  height: 305px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
