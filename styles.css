@@ -13847,6 +13847,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   width: 264px !important;
   height: 264px !important;
 }
+
+@media (max-width: 768px) {
+#ai-section-1784556963705-9xeyioe h3 b span,
+  #ai-section-1784556963705-9xeyioe h3 span,
+  #ai-section-1784556963705-9xeyioe h3 {
+  font-weight: 500 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
