@@ -13855,6 +13855,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   font-weight: 500 !important;
 }
 }
+
+#ai-section-1784556963705-9xeyioe h3 b > span {
+  text-decoration: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
