@@ -13815,6 +13815,24 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+#ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__title {
+  text-shadow: 1px 0 0 #fff, 0.9914px 0.1305px 0 #fff, 0.9659px 0.2588px 0 #fff, 0.9239px 0.3827px 0 #fff, 0.866px 0.5px 0 #fff, 0.7934px 0.6088px 0 #fff, 0.7071px 0.7071px 0 #fff, 0.6088px 0.7934px 0 #fff, 0.5px 0.866px 0 #fff, 0.3827px 0.9239px 0 #fff,
+    2px 2px 0 var(--primary-color, var(--primary, #5B1A9E)), 3px 3px 0 var(--primary-color, var(--primary, #5B1A9E)), 4px 4px 0 var(--primary-color, var(--primary, #5B1A9E)), 5px 5px 0 #12062e,
+    0 0 18px rgba(138, 43, 226, 0.8), 0 0 35px rgba(138, 43, 226, 0.5), 0 0 60px rgba(180, 100, 255, 0.3),
+    -1px -1px 0 rgba(0, 229, 204, 0.35), 1px -1px 0 rgba(0, 229, 204, 0.35), -1px 1px 0 rgba(0, 229, 204, 0.35), 1px 1px 0 rgba(0, 229, 204, 0.35),
+    -1px 0 0 rgba(0, 229, 204, 0.35), 1px 0 0 rgba(0, 229, 204, 0.35), 0 -1px 0 rgba(0, 229, 204, 0.35), 0 1px 0 rgba(0, 229, 204, 0.35)
+  !important;
+}
+
+#ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__title {
+  text-shadow: 1px 0 0 #fff, 0.9914px 0.1305px 0 #fff, 0.9659px 0.2588px 0 #fff, 0.9239px 0.3827px 0 #fff, 0.866px 0.5px 0 #fff, 0.7934px 0.6088px 0 #fff, 0.7071px 0.7071px 0 #fff, 0.6088px 0.7934px 0 #fff, 0.5px 0.866px 0 #fff, 0.3827px 0.9239px 0 #fff,
+    2px 2px 0 var(--primary-color, var(--primary, #5B1A9E)), 3px 3px 0 var(--primary-color, var(--primary, #5B1A9E)), 4px 4px 0 var(--primary-color, var(--primary, #5B1A9E)), 5px 5px 0 #12062e,
+    0 0 18px rgba(138, 43, 226, 0.8), 0 0 35px rgba(138, 43, 226, 0.5), 0 0 60px rgba(180, 100, 255, 0.3),
+    -1px -1px 0 rgba(0, 229, 204, 0.4), 1px -1px 0 rgba(0, 229, 204, 0.4), -1px 1px 0 rgba(0, 229, 204, 0.4), 1px 1px 0 rgba(0, 229, 204, 0.4),
+    -1px 0 0 rgba(0, 229, 204, 0.4), 1px 0 0 rgba(0, 229, 204, 0.4), 0 -1px 0 rgba(0, 229, 204, 0.4), 0 1px 0 rgba(0, 229, 204, 0.4),
+    -2px -2px 0 rgba(0, 229, 204, 0.25), 2px -2px 0 rgba(0, 229, 204, 0.25), -2px 2px 0 rgba(0, 229, 204, 0.25), 2px 2px 0 rgba(0, 229, 204, 0.25)
+  !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
