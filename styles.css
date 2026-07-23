@@ -19356,6 +19356,145 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   height: 305px !important;
 }
 }
+
+.mystical-portal-section .mystical-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mystical-portal-section .portal-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.mystical-portal-section .sparkle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, var(--accent-color, var(--accent, #00E5CC)), rgba(0,229,204,0.4));
+  box-shadow: 0 0 12px 2px rgba(0,229,204,0.7), 0 0 30px 6px rgba(0,229,204,0.35), 0 0 60px 12px rgba(0,229,204,0.18);
+  animation: floatOrb 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.mystical-portal-section .sparkle-1 {
+  width: 14px;
+  height: 14px;
+  top: -8px;
+  left: 50%;
+  animation-delay: 0s;
+}
+
+.mystical-portal-section .sparkle-2 {
+  width: 10px;
+  height: 10px;
+  top: 12%;
+  right: -6px;
+  animation-delay: 0.4s;
+}
+
+.mystical-portal-section .sparkle-3 {
+  width: 18px;
+  height: 18px;
+  bottom: -10px;
+  left: 45%;
+  animation-delay: 0.8s;
+}
+
+.mystical-portal-section .sparkle-4 {
+  width: 8px;
+  height: 8px;
+  top: 25%;
+  left: -4px;
+  animation-delay: 1.2s;
+}
+
+.mystical-portal-section .sparkle-5 {
+  width: 12px;
+  height: 12px;
+  bottom: 15%;
+  right: 8%;
+  animation-delay: 1.6s;
+}
+
+.mystical-portal-section .sparkle-6 {
+  width: 16px;
+  height: 16px;
+  top: -5px;
+  left: 30%;
+  animation-delay: 2.0s;
+}
+
+.mystical-portal-section .sparkle-7 {
+  width: 9px;
+  height: 9px;
+  bottom: 8%;
+  left: 15%;
+  animation-delay: 2.4s;
+}
+
+.mystical-portal-section .sparkle-8 {
+  width: 13px;
+  height: 13px;
+  top: 40%;
+  left: -8px;
+  animation-delay: 2.8s;
+}
+
+.mystical-portal-section .sparkle-9 {
+  width: 7px;
+  height: 7px;
+  top: 60%;
+  right: -2px;
+  animation-delay: 3.2s;
+}
+
+.mystical-portal-section .sparkle-10 {
+  width: 14px;
+  height: 14px;
+  top: 18%;
+  left: 10%;
+  animation-delay: 0.2s;
+}
+
+.mystical-portal-section .sparkle-11 {
+  width: 10px;
+  height: 10px;
+  bottom: 20%;
+  left: 60%;
+  animation-delay: 1.0s;
+}
+
+.mystical-portal-section .sparkle-12 {
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  right: -5px;
+  animation-delay: 1.8s;
+}
+
+@keyframes floatOrb {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  25% {
+    transform: translateY(-14px) scale(1.15);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-6px) scale(0.95);
+    opacity: 0.9;
+  }
+  75% {
+    transform: translateY(-20px) scale(1.1);
+    opacity: 1;
+  }
+}
+/* zappy-self-heal */
+.mystical-portal-section .sparkle { animation: floatOrb 4s ease-in-out infinite !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
