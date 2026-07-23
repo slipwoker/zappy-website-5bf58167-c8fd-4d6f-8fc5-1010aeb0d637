@@ -13750,8 +13750,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .floating-logo-section .logo-circle-inner {
-  width: 368px;
-  height: 368px;
+  width: 380px !important;
+  height: 380px !important;
 }
 
 .floating-logo-section .logo-circle {
