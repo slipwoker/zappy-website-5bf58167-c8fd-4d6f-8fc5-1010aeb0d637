@@ -13859,6 +13859,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 #ai-section-1784556963705-9xeyioe h3 b > span {
   text-decoration: none !important;
 }
+
+#ai-section-1784556610497-1yt2k4a h2 u {
+  text-decoration: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
