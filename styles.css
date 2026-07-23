@@ -18977,6 +18977,12 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   -webkit-text-stroke: 2px rgba(0, 229, 204, 0.5) !important;
   paint-order: stroke fill !important;
 }
+
+@media (max-width: 768px) {
+#ai-section-1784556610497-1yt2k4a .hero-cosmic-gateway__title {
+  -webkit-text-stroke: 1px rgba(0, 229, 204, 0.4) !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
