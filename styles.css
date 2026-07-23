@@ -13837,6 +13837,11 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     -2px -2px 0 rgba(0, 229, 204, 0.25), 2px -2px 0 rgba(0, 229, 204, 0.25), -2px 2px 0 rgba(0, 229, 204, 0.25), 2px 2px 0 rgba(0, 229, 204, 0.25)
   !important;
 }
+
+#ai-section-1784556963705-9xeyioe .logo-circle-inner {
+  width: 368px !important;
+  height: 368px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
