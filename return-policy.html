@@ -1119,7 +1119,20 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
         <h4>ניווט מהיר</h4>
         <ul class="footer-links">
           <li><a href="/">בית</a></li>
-          <li><a href="/courses">קורסים</a></li>
+          
+    <li class="menu-item-has-children zappy-products-dropdown">
+      <a href="/courses">
+        קורסים
+        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9l6 6 6-6"/>
+        </svg>
+      </a>
+      <ul class="sub-menu" id="zappy-nav-category-links" dir="rtl">
+        <li><a href="/courses" data-i18n="ecom_products">כל הקורסים</a></li>
+        <!-- Categories will be loaded dynamically -->
+      </ul>
+    </li>
+  
           <li><a href="/blog">בלוג</a></li>
           <li><a href="/recordings">הקלטות</a></li>
           <li><a href="/contact">צור קשר</a></li>
