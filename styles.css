@@ -18965,6 +18965,20 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .quiz-score.passed { border-color:var(--success-color, var(--border-dark)); }
 .quiz-score.failed { border-color:var(--error-color, var(--border-dark)); }
 
+@media (max-width: 768px) {
+.nav-menu.active {
+  visibility: visible !important;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-menu {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: visibility 0.3s, opacity 0.3s, transform 0.3s;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
