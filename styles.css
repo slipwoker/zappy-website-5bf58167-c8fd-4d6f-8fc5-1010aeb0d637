@@ -18965,6 +18965,9 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .quiz-score.passed { border-color:var(--success-color, var(--border-dark)); }
 .quiz-score.failed { border-color:var(--error-color, var(--border-dark)); }
 
+#ai-section-1784556610497-1yt2k4a-dup-1785410193086 .hero-cosmic-gateway__content > h2 {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
