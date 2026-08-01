@@ -19115,6 +19115,13 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   font-size: 3.5rem !important;
   font-family: 'Cormorant Garamond', serif !important;
 }
+
+@media (max-width: 768px) {
+#ai-section-1784556610497-1yt2k4a-dup-1785410193086.hero-cosmic-gateway {
+  min-height: 70vh !important;
+  padding-top: 100px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
