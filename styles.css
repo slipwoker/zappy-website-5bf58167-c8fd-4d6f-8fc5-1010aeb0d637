@@ -19122,6 +19122,14 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   padding-top: 100px !important;
 }
 }
+
+.index-showcase-section__image-main-wrapper {
+  box-shadow: 0 0 60px 20px rgba(110, 231, 216, 0.25), 0 0 120px 30px rgba(91, 26, 158, 0.3);
+}
+
+.index-showcase-section__image-main-wrapper img {
+  box-shadow: 0 0 50px 25px rgba(110, 231, 216, 0.2);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
