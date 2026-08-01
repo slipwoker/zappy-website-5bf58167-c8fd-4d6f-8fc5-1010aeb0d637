@@ -19086,6 +19086,18 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   flex-shrink: 0;
   filter: drop-shadow(0 0 6px rgba(91, 26, 158, 0.6)) drop-shadow(0 0 12px rgba(182, 100, 198, 0.4));
 }
+
+#zappy-section-1 .glossary-intro-section__headline {
+  color: #1A0A2E !important;
+  text-shadow: 0 1px 0 var(--primary-color, var(--primary, #5B1A9E)),
+    0 2px 0 #4E1689,
+    0 3px 0 #411274,
+    0 4px 0 #340E5F,
+    0 6px 10px rgba(91, 26, 158, 0.4),
+    0 0 20px rgba(182, 100, 198, 0.4),
+    0 0 40px rgba(182, 100, 198, 0.2),
+    0 0 60px rgba(0, 229, 204, 0.15);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
