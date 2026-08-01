@@ -46,14 +46,6 @@ https://lilachnoga.co.il/order-success
 https://lilachnoga.co.il/thank-you
 מסרים מעולם היצירה - תודה על פנייתך
 
-### ארבעת שלבי ההתעוררות
-https://lilachnoga.co.il/four-stages-awakening
-מסרים מעולם היצירה - ארבעת שלבי ההתעוררות
-
-### מילון מושגים
-https://lilachnoga.co.il/glossary
-מסרים מעולם היצירה - מילון מושגים
-
 ### Courses
 https://lilachnoga.co.il/courses
 Browse all available courses.
@@ -77,6 +69,14 @@ Your enrolled courses and progress.
 ### Certificate
 https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
+
+### ארבעת שלבי ההתעוררות
+https://lilachnoga.co.il/four-stages-awakening
+מסרים מעולם היצירה - ארבעת שלבי ההתעוררות
+
+### מילון מושגים
+https://lilachnoga.co.il/glossary
+מסרים מעולם היצירה - מילון מושגים
 
 ## Legal & Policy
 
