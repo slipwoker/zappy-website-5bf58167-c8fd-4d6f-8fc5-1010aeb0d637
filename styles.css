@@ -19110,6 +19110,11 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
     0 0 40px rgba(182, 100, 198, 0.2),
     0 0 60px rgba(0, 229, 204, 0.15) !important;
 }
+
+#zappy-section-1 .glossary-intro-section__headline-wrapper h1 {
+  font-size: 3.5rem !important;
+  font-family: 'Cormorant Garamond', serif !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
