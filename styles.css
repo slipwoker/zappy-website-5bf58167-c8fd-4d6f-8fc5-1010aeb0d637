@@ -19050,6 +19050,42 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   max-width: 95vw;
 }
 }
+
+.glossary-intro-section__headline-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.glossary-intro-section__headline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #F8F3FF;
+  text-align: right;
+  margin: 0;
+  text-shadow: 0 1px 0 #3A0E6B,
+    0 2px 0 #320B5C,
+    0 3px 0 #2B094D,
+    0 4px 0 #24073F,
+    0 5px 0 #1D0531,
+    0 6px 0 #160323,
+    0 8px 10px rgba(91, 26, 158, 0.5),
+    0 0 20px rgba(182, 100, 198, 0.6),
+    0 0 40px rgba(182, 100, 198, 0.3),
+    0 0 60px rgba(110, 231, 216, 0.2),
+    0 0 80px rgba(145, 70, 180, 0.4);
+  letter-spacing: 0.03em;
+}
+
+.glossary-intro-section__butterfly {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 6px rgba(91, 26, 158, 0.6)) drop-shadow(0 0 12px rgba(182, 100, 198, 0.4));
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
