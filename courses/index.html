@@ -749,6 +749,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     </style>
 </head>
 <body>
+<!-- ZAPPY_COURSES_STOREFRONT_V1:courses-catalog -->
 <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -785,13 +786,15 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 </nav>
 <main id="main" class="courses-page-main">
 
-<section class="courses-catalog-section" id="courses-catalog-section" style="margin-top: -102px !important; padding-top: 102px !important;">
+<section class="courses-catalog-section">
   <div class="container">
     <header class="courses-catalog-header">
-      <h1 data-ecom-text="ecom_coursesCatalogTitle" style><span style="color: #f8f3ff !important">קורסים</span></h1>
-      <p data-ecom-text="ecom_coursesCatalogSubtitle" style><span style="color: #f8f3ff !important">עיינו בספריית הקורסים המלאה שלנו.</span></p>
+      <h1 data-ecom-text="ecom_coursesCatalogTitle">Courses</h1>
+      <p data-ecom-text="ecom_coursesCatalogSubtitle">Browse our full course library.</p>
     </header>
-    <div id="courses-grid" class="courses-grid" data-zappy-courses-grid><a class="course-card" href="/courses/kvd-hsbybvn-2mv74j" data-grid-item-index="0"><div class="course-card-media"><img src="/assets/product-1783253302677-hxbyoh.webp" alt loading="lazy" data-element-type="image" data-element-id="img-1785736702771-vanos9wte" style decoding="async" fetchpriority="low" /></div><div class="course-card-body"><h3 class="course-card-title">קוד הסביבון</h3><p class="course-card-instructor">לילך נגה</p><p class="course-card-tagline">קוד הסביבון הפנימי - שמיניות באוויר</p><div class="course-card-price">₪360.00</div></div></a><a class="course-card" href="/courses/shary-hastrvlvgyh-onctcd" data-grid-item-index="1"><div class="course-card-media"><img src="/assets/product-1783976798003-sbcfb.webp" alt loading="lazy" data-element-type="image" data-element-id="img-1785736702772-48sq3ykdx" style decoding="async" fetchpriority="low" /></div><div class="course-card-body"><h3 class="course-card-title">שערי האסטרולוגיה</h3><p class="course-card-instructor">לילך נגה</p><p class="course-card-tagline">קורס בן 13 שיעורים, שיסייע לכם לסובב את הסיבוב השני במפתח. הקורס מנגיש למידה רחבה ומקיפה של 12 מזלו…</p><div class="course-card-price">₪899.00</div></div></a><a class="course-card" href="/courses/svd-havtyvt-6y5845" data-grid-item-index="2"><div class="course-card-media"><img src="/assets/product-1784199163789-vr02wd.webp" alt loading="lazy" data-element-type="image" data-element-id="img-1785736702773-fynjiyp2c" style decoding="async" fetchpriority="low" /></div><div class="course-card-body"><h3 class="course-card-title">סוד האותיות</h3><p class="course-card-instructor">לילך נגה</p><div class="course-card-price">₪1069.00</div></div></a></div>
+    <div id="courses-grid" class="courses-grid" data-zappy-courses-grid>
+      <p data-ecom-text="ecom_loadingCourses">Loading courses…</p>
+    </div>
   </div>
 </section>
 </main>
@@ -831,7 +834,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 
       <!-- Contact Info Column -->
       <div class="footer-col footer-contact-col">
-        <h4 style>צרו קשר</h4>
+        <h4>צרו קשר</h4>
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1782680082881-7gxrzg8a6" data-icon-type="fontawesome"></i></span>
@@ -839,9 +842,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1782680082881-gyiuzm5ma" data-icon-type="fontawesome"></i></span>
-            <span class="contact-text"><a href="tel:0526422676" style>0526422676<br /></a></span>
+            <span class="contact-text"><a href="tel:0526422676">0526422676<br /></a></span>
           </li>
-          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%A2%D7%A0%D7%A0%D7%94%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" style target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%A2%D7%A0%D7%A0%D7%94%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
             <span class="contact-text"><br /></span></a></li>
         </ul>
       </div>
@@ -849,7 +852,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Business Hours Column -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours" style><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
 <li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
 <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
@@ -887,6 +890,149 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     </div>
   </div>
 </footer>
+<script>
+
+/* ZAPPY_MOBILE_MENU_TOGGLE_V3 */
+(function(){
+  try {
+    if (window.__zappyMobileMenuToggleInitV3) return;
+    window.__zappyMobileMenuToggleInitV3 = true;
+    window.__zappyMobileMenuToggleInit = true; // legacy guards
+
+    function menuIsOpen(menu) {
+      return !!(menu && (
+        menu.classList.contains('active') ||
+        menu.classList.contains('open') ||
+        menu.style.display === 'block'
+      ));
+    }
+
+    function closeMenu(menu) {
+      if (!menu) return;
+      menu.classList.remove('active');
+      menu.classList.remove('open');
+      menu.style.display = '';
+    }
+
+    function setClosedIcons(toggle) {
+      if (!toggle) return;
+      toggle.classList.remove('active');
+      var hamburgerIcon = toggle.querySelector('.hamburger-icon');
+      var closeIcon = toggle.querySelector('.close-icon');
+      if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+      if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+    }
+
+    function setOpenIcons(toggle) {
+      if (!toggle) return;
+      toggle.classList.add('active');
+      var hamburgerIcon = toggle.querySelector('.hamburger-icon');
+      var closeIcon = toggle.querySelector('.close-icon');
+      if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
+      if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
+    }
+
+    function initMobileToggle() {
+      var toggle = document.querySelector('.mobile-toggle, #mobileToggle');
+      var navMenu = document.querySelector('#navMenu, .nav-menu, .navbar-menu');
+      if (!toggle || !navMenu) return;
+
+      // Skip if this toggle already has a click handler from the site's own JS
+      if (toggle.__zappyMobileToggleBound) return;
+      toggle.__zappyMobileToggleBound = true;
+
+      // Repair baked open-icon styles when the menu is actually closed.
+      if (!menuIsOpen(navMenu)) setClosedIcons(toggle);
+
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (menuIsOpen(navMenu)) {
+          closeMenu(navMenu);
+          setClosedIcons(toggle);
+          document.body.style.overflow = '';
+        } else {
+          navMenu.classList.add('active');
+          navMenu.classList.remove('open');
+          navMenu.style.display = 'block';
+          setOpenIcons(toggle);
+          document.body.style.overflow = 'hidden';
+        }
+      }, true);
+
+      // Close on clicking outside
+      document.addEventListener('click', function(e) {
+        if (!menuIsOpen(navMenu)) return;
+        if (toggle.contains(e.target) || navMenu.contains(e.target)) return;
+        closeMenu(navMenu);
+        setClosedIcons(toggle);
+        document.body.style.overflow = '';
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && menuIsOpen(navMenu)) {
+          closeMenu(navMenu);
+          setClosedIcons(toggle);
+          document.body.style.overflow = '';
+        }
+      });
+
+      // Close when clicking a nav link (navigating)
+      navMenu.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          closeMenu(navMenu);
+          setClosedIcons(toggle);
+          document.body.style.overflow = '';
+        });
+      });
+    }
+
+    function initPhoneButton() {
+      var phoneBtn = document.querySelector('.phone-header-btn');
+      if (!phoneBtn || phoneBtn.__zappyPhoneBound) return;
+      phoneBtn.__zappyPhoneBound = true;
+
+      phoneBtn.addEventListener('click', function() {
+        var phoneNumber = phoneBtn.getAttribute('data-phone') || null;
+
+        if (!phoneNumber) {
+          var telLinks = document.querySelectorAll('a[href^="tel:"]');
+          if (telLinks.length > 0) {
+            phoneNumber = telLinks[0].getAttribute('href').replace('tel:', '');
+          }
+        }
+
+        if (!phoneNumber) {
+          var allLinks = document.querySelectorAll('a[href]');
+          for (var i = 0; i < allLinks.length; i++) {
+            var h = allLinks[i].getAttribute('href') || '';
+            var cleaned = h.replace(/[-\s()]/g, '');
+            if (/^(\+?\d{9,15}|0\d{8,9})$/.test(cleaned)) {
+              phoneNumber = cleaned;
+              break;
+            }
+          }
+        }
+
+        if (phoneNumber && phoneNumber.indexOf('[') === -1) {
+          window.location.href = 'tel:' + phoneNumber;
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() { initMobileToggle(); initPhoneButton(); }, { once: true });
+    } else {
+      initMobileToggle();
+      initPhoneButton();
+    }
+  } catch (e) {}
+})();
+/* END ZAPPY_MOBILE_MENU_TOGGLE */
+</script>
+<a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
     <script src="/script.js"></script>
 
     <script id="zappy-font-awesome-loader">
