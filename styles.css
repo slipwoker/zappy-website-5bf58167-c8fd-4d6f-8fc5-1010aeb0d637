@@ -19130,6 +19130,14 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .index-showcase-section__image-main-wrapper img {
   box-shadow: 0 0 50px 25px rgba(110, 231, 216, 0.2);
 }
+
+.site-footer .zappy-products-dropdown .sub-menu a {
+  color: var(--text-light, #F8F3FF) !important;
+}
+
+.site-footer .zappy-products-dropdown .sub-menu a:hover {
+  color: var(--accent, var(--accent-color, var(--accent, #00E5CC))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
