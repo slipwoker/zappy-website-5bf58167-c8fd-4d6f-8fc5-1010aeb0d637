@@ -19165,6 +19165,16 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
     -3px 0 0 var(--surface-color, var(--surface, #FFFFFF)),
      3px 0 0 var(--surface-color, var(--surface, #FFFFFF)) !important;
 }
+
+.four-stages-awakening-gallery-section .gallery-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+.four-stages-awakening-gallery-section .gallery-grid {
+  grid-template-columns: 1fr 1fr;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
