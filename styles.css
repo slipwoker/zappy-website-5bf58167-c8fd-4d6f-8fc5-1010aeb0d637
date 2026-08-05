@@ -19146,6 +19146,21 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   grid-template-columns: 1fr !important;
 }
 }
+
+#ai-section-1784556610497-1yt2k4a-dup-1785410193086 .hero-cosmic-gateway__logo-container p {
+  text-shadow: -2px -2px 0 var(--surface-color, var(--surface, #FFFFFF)),
+     2px -2px 0 var(--surface-color, var(--surface, #FFFFFF)),
+    -2px  2px 0 var(--surface-color, var(--surface, #FFFFFF)),
+     2px  2px 0 var(--surface-color, var(--surface, #FFFFFF)),
+    -3px -3px 0 var(--surface-color, var(--surface, #FFFFFF)),
+     3px -3px 0 var(--surface-color, var(--surface, #FFFFFF)),
+    -3px  3px 0 var(--surface-color, var(--surface, #FFFFFF)),
+     3px  3px 0 var(--surface-color, var(--surface, #FFFFFF)),
+     0 -3px 0 var(--surface-color, var(--surface, #FFFFFF)),
+     0  3px 0 var(--surface-color, var(--surface, #FFFFFF)),
+    -3px 0 0 var(--surface-color, var(--surface, #FFFFFF)),
+     3px 0 0 var(--surface-color, var(--surface, #FFFFFF)) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
