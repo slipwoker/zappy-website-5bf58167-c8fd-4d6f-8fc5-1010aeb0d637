@@ -19175,6 +19175,35 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   grid-template-columns: 1fr 1fr;
 }
 }
+
+.four-stages-awakening-features-section .stage-visual {
+  position: relative;
+  width: 100%;
+  height: 0 !important;
+  padding-bottom: 56.25% !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  background: #000 !important;
+  display: block !important;
+}
+
+.four-stages-awakening-features-section .stage-visual iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+.four-stages-awakening-features-section .stage-visual .stage-motif {
+  display: none !important;
+}
+
+.four-stages-awakening-features-section .stage-visual .stage-icon {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
