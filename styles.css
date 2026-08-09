@@ -19204,6 +19204,10 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .four-stages-awakening-features-section .stage-visual .stage-icon {
   display: none !important;
 }
+
+.zappy-catalog-menu .catalog-menu-item.catalog-menu-all {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
