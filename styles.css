@@ -19208,6 +19208,10 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .zappy-catalog-menu .catalog-menu-item.catalog-menu-all {
   display: none !important;
 }
+
+nav.zappy-catalog-menu {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
