@@ -19212,6 +19212,11 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 nav.zappy-catalog-menu {
   display: none !important;
 }
+
+#layout-1782391096358 .image-card-grid > div,
+#layout-1782391096358-courses-2 .image-card-grid > div {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
