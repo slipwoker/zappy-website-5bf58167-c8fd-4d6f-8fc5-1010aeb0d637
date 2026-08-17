@@ -17031,28 +17031,32 @@ if (document.readyState === 'complete') {
   [300, 1000, 2500].forEach(function(ms){ setTimeout(boot, ms); });
 })();
 
-/* ZAPPY_MOBILE_MENU_CLOSED_ICONS_V1 */
+/* ZAPPY_MOBILE_MENU_CLOSED_ICONS_V2 */
 (function(){
-  if (window.__zappyMobileMenuClosedIconsV1) return;
-  window.__zappyMobileMenuClosedIconsV1 = true;
-  function reset() {
-    var toggle = document.querySelector('.mobile-toggle, #mobileToggle');
-    if (!toggle) return;
+  if (window.__zappyMobileMenuClosedIconsV2) return;
+  window.__zappyMobileMenuClosedIconsV2 = true;
+  function closeBaked() {
     var menu = document.querySelector('#navMenu, .nav-menu, .navbar-menu');
-    var isOpen = !!(menu && (menu.classList.contains('active') || menu.classList.contains('open') || menu.style.display === 'block'));
-    if (isOpen) return;
-    toggle.classList.remove('active');
-    var hi = toggle.querySelector('.hamburger-icon');
-    var ci = toggle.querySelector('.close-icon');
-    if (hi) hi.style.setProperty('display', 'block', 'important');
-    if (ci) ci.style.setProperty('display', 'none', 'important');
+    if (menu) {
+      menu.classList.remove('active');
+      menu.classList.remove('open');
+      menu.style.removeProperty('display');
+    }
+    var toggle = document.querySelector('.mobile-toggle, #mobileToggle');
+    if (toggle) {
+      toggle.classList.remove('active');
+      if (toggle.setAttribute) toggle.setAttribute('aria-expanded', 'false');
+      var hi = toggle.querySelector('.hamburger-icon');
+      var ci = toggle.querySelector('.close-icon');
+      if (hi) hi.style.setProperty('display', 'block', 'important');
+      if (ci) ci.style.setProperty('display', 'none', 'important');
+    }
+    document.body.style.overflow = '';
   }
+  closeBaked();
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', reset);
-  } else {
-    reset();
+    document.addEventListener('DOMContentLoaded', closeBaked, { once: true });
   }
-  [50, 200, 500].forEach(function(ms){ setTimeout(reset, ms); });
 })();
 
 
@@ -17105,8 +17109,11 @@ if (document.readyState === 'complete') {
       if (toggle.__zappyMobileToggleBound) return;
       toggle.__zappyMobileToggleBound = true;
 
-      // Repair baked open-icon styles when the menu is actually closed.
-      if (!menuIsOpen(navMenu)) setClosedIcons(toggle);
+      // Always start closed. A save while the overlay was open bakes
+      // .nav-menu.active into HTML; repairing icons alone leaves the panel up.
+      closeMenu(navMenu);
+      setClosedIcons(toggle);
+      document.body.style.overflow = '';
 
       toggle.addEventListener('click', function(e) {
         e.preventDefault();
