@@ -19221,6 +19221,19 @@ nav.zappy-catalog-menu {
 #layout-1782391096358-courses-2 [data-zappy-zoom-wrapper="true"] {
   padding-bottom: 0 !important;
 }
+
+#layout-1782391096358-courses-2 .image-card-grid {
+  align-items: flex-start !important;
+}
+
+#layout-1782391096358-courses-2 .image-card-grid .zappy-grid-item {
+  height: auto !important;
+  align-self: flex-start;
+}
+
+#layout-1782391096358-courses-2 .image-card-grid .zappy-grid-item > div:not([data-zappy-zoom-wrapper]) {
+  flex: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
