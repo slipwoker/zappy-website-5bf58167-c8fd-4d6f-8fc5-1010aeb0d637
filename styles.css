@@ -19234,6 +19234,19 @@ nav.zappy-catalog-menu {
 #layout-1782391096358-courses-2 .image-card-grid .zappy-grid-item > div:not([data-zappy-zoom-wrapper]) {
   flex: none !important;
 }
+
+#index-features-section {
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+
+#index-features-section .index-features-section__header {
+  margin-bottom: 20px !important;
+}
+
+#index-features-section .index-features-section__featured-article {
+  margin-bottom: 30px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
