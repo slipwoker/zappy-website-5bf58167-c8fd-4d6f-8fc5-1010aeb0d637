@@ -888,7 +888,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
-<script>window.ZAPPY_WEBSITE_ID = "5bf58167-c8fd-4d6f-8fc5-1010aeb0d637";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "5bf58167-c8fd-4d6f-8fc5-1010aeb0d637";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1375,11 +1375,11 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 </script>
   
   <main id="main">
-    <section class="blog-intro-section zappy-lazy-bg" data-layout-spec="בלוג-intro" id="blog-intro-section" style="--zappy-bg-overlay: rgba(249, 57, 159, 0.03);--zappy-bg-size: cover;--zappy-bg-position: center;background-size: cover !important;background-position: 50% 50% !important;background-repeat: no-repeat;position: relative;overflow: hidden;--zappy-bg-color: #f0e6ff;margin-top: -102px !important;padding-top: 102px !important;min-height: 654.594px !important" data-zappy-bg-orig-size-var data-zappy-bg-orig-position-var data-zappy-bg-type="image" data-zappy-bg-color="#f0e6ff" data-zappy-bg-image="assets/image-spirituality-personal-developm-media-upload-upload-1784577150393-a7sguk.webp" data-zappy-bg-overlay-color="#f9399f" data-zappy-bg-overlay-opacity="3" data-zappy-bg-video-type data-zappy-bg-video-url data-element-id="zappy-hero-bg-blog-intro-section" data-element-type="background-image" data-zappy-bg-position="50% 50%" data-zappy-bg-zoom="1" data-zappy-content-align="upper-mid-left" data-zappy-lazy-bg="background-image: linear-gradient(rgba(249, 57, 159, 0.03), rgba(249, 57, 159, 0.03)), url(&quot;assets/image-spirituality-personal-developm-media-upload-upload-1784577150393-a7sguk.webp&quot;);--zappy-bg-image: url(&quot;assets/image-spirituality-personal-developm-media-upload-upload-1784577150393-a7sguk.webp&quot;);">
-  <div class="blog-intro-container" data-zappy-align-target="true">
+    <section class="blog-intro-section zappy-lazy-bg" data-layout-spec="בלוג-intro" id="blog-intro-section" style="--zappy-bg-overlay: rgba(249, 57, 159, 0.03);--zappy-bg-size: cover;--zappy-bg-position: center;background-size: cover !important;background-position: 50% 50% !important;background-repeat: no-repeat;position: relative;overflow: hidden;--zappy-bg-color: #f0e6ff;margin-top: -102px !important;padding-top: 102px !important;cursor: url(&quot;data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29.2344 9.93125L4.87351 34.2922C4.67351 34.4922 4.52976 34.7437 4.46101 35.0203L1.60789 46.4984C1.47664 47.0312 1.63289 47.5922 2.02039 47.9797C2.40945 48.3688 2.97351 48.5219 3.50164 48.3922L14.9798 45.5406C15.2548 45.4719 15.5063 45.3297 15.7079 45.1281L40.0688 20.7672L29.2344 9.93125Z' fill='%23FF0083'/%3E%3Cpath d='M46.1937 3.80781C43.2062 0.820311 38.3468 0.820311 35.3578 3.80781L31.4421 7.72344L42.2781 18.5594L46.1937 14.6437C49.1812 11.6547 49.1812 6.79531 46.1937 3.80781Z' fill='%23FF0083'/%3E%3C/svg%3E&quot;) 2 13, pointer !important;min-height: 654.594px !important" data-zappy-bg-orig-size-var data-zappy-bg-orig-position-var data-zappy-bg-type="image" data-zappy-bg-color="#f0e6ff" data-zappy-bg-image="assets/image-spirituality-personal-developm-media-upload-upload-1784577150393-a7sguk.webp" data-zappy-bg-overlay-color="#f9399f" data-zappy-bg-overlay-opacity="3" data-zappy-bg-video-type data-zappy-bg-video-url data-element-id="zappy-hero-bg-blog-intro-section" data-element-type="background-image" data-zappy-bg-position="50% 50%" data-zappy-bg-zoom="1" data-zappy-content-align="upper-mid-left" data-zappy-lazy-bg="background-image: linear-gradient(rgba(249, 57, 159, 0.03), rgba(249, 57, 159, 0.03)), url(&quot;assets/image-spirituality-personal-developm-media-upload-upload-1784577150393-a7sguk.webp&quot;);--zappy-bg-image: url(&quot;assets/image-spirituality-personal-developm-media-upload-upload-1784577150393-a7sguk.webp&quot;);">
+  <div class="blog-intro-container" data-zappy-align-target="true" style>
     <!-- Two-column header: H1 on right, paragraph on left -->
     <div class="blog-intro-header">
-      <h1 class="blog-intro-title"></h1><h1><span style="text-shadow: 0px 4px 10px #FF00FF;"><span style="color: #ffffff !important">הבלוג שלי</span></span></h1>
+      <h1 class="blog-intro-title" style></h1><h1 style><span style="text-shadow: 0px 4px 10px #FF00FF;"><span style="color: #ffffff !important">הבלוג שלי</span></span></h1>
       
     </div>
     
@@ -1414,19 +1414,19 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 <section class="blog-gallery-section" data-layout-spec="בלוג-gallery" id="blog-gallery-section" style="min-height: 1368.35px !important;">
   <div class="blog-gallery-section__container">
     <div class="blog-gallery-section__header">
-      <h2 class="blog-gallery-section__title">מסרים מעולם היצירה אליכם</h2>
-      <p class="blog-gallery-section__subtitle">מאמרים נבחרים על צמיחה רוחנית, הקשבה פנימית וריפוי התודעה</p>
+      <h2 class="blog-gallery-section__title" style>מסרים מעולם היצירה אליכם</h2>
+      <p class="blog-gallery-section__subtitle" style>מאמרים נבחרים על צמיחה רוחנית, הקשבה פנימית וריפוי התודעה</p>
     </div>
 
     <div class="blog-gallery-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1784576976450-21xe5j" data-zappy-auto-grid="true" data-original-item-width="584" data-original-gap="32px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 379px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 379px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       <!-- Card 1 - Featured (slightly taller) -->
       <article class="blog-gallery-section__card blog-gallery-section__card--featured" data-grid-item-index="0">
         <figure class="blog-gallery-section__card-media">
-          <img loading="lazy" fetchpriority="low" data-placeholder="blog-gallery-image-1" data-context="A mystical landscape at dawn with ethereal light rays breaking through clouds over a calm sea, symbolizing intuition and inner awakening" width="600" height="400" src="/assets/site-blog-gallery-image-1.webp" alt="נוף מיסטי בשחר המסמל התעוררות פנימית" data-element-type="image" data-element-id="img-1784576976421-x47z67mg8" decoding="async" />
+          <img loading="lazy" fetchpriority="low" data-placeholder="blog-gallery-image-1" data-context="A mystical landscape at dawn with ethereal light rays breaking through clouds over a calm sea, symbolizing intuition and inner awakening" width="600" height="400" src="/assets/site-blog-gallery-image-1.webp" alt="נוף מיסטי בשחר המסמל התעוררות פנימית" data-element-type="image" data-element-id="img-1784576976421-x47z67mg8" style decoding="async" />
         </figure>
         <div class="blog-gallery-section__card-content">
-          <h3 class="blog-gallery-section__card-title">ראש השנה, תחילת המירוץ :)</h3>
-          <p class="blog-gallery-section__card-excerpt">&nbsp;בראש השנה כולנו נמצאים בקו ההתחלה - כמו אצנים בתחילת המירוץ.<br />כולנו ראשונים, כולנו שווים, עד שנשמע הגונג - ״קול התרועה״. ראש השנה נקרא בתורה ״יום התרועה״. כשמתריעים על משהו משמע שמגלים על מאורע חדש, טיים ליין חדש! לאחר יריית הפתיחה, כולם מתחילים לרוץ. אם אנחנו נרוץ על פי הנרטיב החיצוני שמראים לנו, נתנהג כמו עכברים במירוץ, אך אם ננהג לפי האמת הפנימית שלנו נגיע אל עצמנו ואל נשמתנו. שם נמצאות כל התשובות.&nbsp;</p>
+          <h3 class="blog-gallery-section__card-title" style>ראש השנה, תחילת המירוץ :)</h3>
+          <p class="blog-gallery-section__card-excerpt" style>&nbsp;בראש השנה כולנו נמצאים בקו ההתחלה - כמו אצנים בתחילת המירוץ.<br />כולנו ראשונים, כולנו שווים, עד שנשמע הגונג - ״קול התרועה״. ראש השנה נקרא בתורה ״יום התרועה״. כשמתריעים על משהו משמע שמגלים על מאורע חדש, טיים ליין חדש! לאחר יריית הפתיחה, כולם מתחילים לרוץ. אם אנחנו נרוץ על פי הנרטיב החיצוני שמראים לנו, נתנהג כמו עכברים במירוץ, אך אם ננהג לפי האמת הפנימית שלנו נגיע אל עצמנו ואל נשמתנו. שם נמצאות כל התשובות.&nbsp;</p>
           <p><a href="#" class="blog-gallery-section__card-link" style="color: #1A1A1A !important">קרא עוד ←</a>
         </p></div>
       </article>
@@ -1434,11 +1434,11 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Card 2 -->
       <article class="blog-gallery-section__card" data-grid-item-index="1">
         <figure class="blog-gallery-section__card-media">
-          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-2" data-context="Soft glowing hands cupping a small sprout emerging from rich soil, representing inner healing and personal growth" width="600" height="400" src="/assets/site-blog-gallery-image-2.webp" alt="ידיים אוחזות נבט המסמל ריפוי פנימי" data-element-type="image" data-element-id="img-1784576976423-4y4pqtnek" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-2" data-context="Soft glowing hands cupping a small sprout emerging from rich soil, representing inner healing and personal growth" width="600" height="400" src="/assets/site-blog-gallery-image-2.webp" alt="ידיים אוחזות נבט המסמל ריפוי פנימי" data-element-type="image" data-element-id="img-1784576976423-4y4pqtnek" style fetchpriority="low" />
         </figure>
         <div class="blog-gallery-section__card-content">
-          <h3 class="blog-gallery-section__card-title">יוזמים, רצים ועושים- ועדיין לא רואים תוצאות?</h3>
-          <p class="blog-gallery-section__card-excerpt">המציאות שעיניכם רואות היא מציאות ישנה. כוונתי היא שכל מה שאתם רואים כבר התרחש, מישהו כבר חשב על זה, יצר את זה, וכרגע הכל מוקרן לפניכם. בכל רגע ורגע התודעה שלכם יוצרת מציאות חדשה שעתידה להתממש בעולם הפיזי.<br />
+          <h3 class="blog-gallery-section__card-title" style>יוזמים, רצים ועושים- ועדיין לא רואים תוצאות?</h3>
+          <p class="blog-gallery-section__card-excerpt" style>המציאות שעיניכם רואות היא מציאות ישנה. כוונתי היא שכל מה שאתם רואים כבר התרחש, מישהו כבר חשב על זה, יצר את זה, וכרגע הכל מוקרן לפניכם. בכל רגע ורגע התודעה שלכם יוצרת מציאות חדשה שעתידה להתממש בעולם הפיזי.<br />
 ההתממשות הפיזית היא התהליך הסופי, זו שעיניכם רואות. לפני ההתממשות הסופית, שאני קוראת לה - ״התקרשות החומר״, ישנם כמה תהליכים שקורים בשקט בשקט, במחשכים...ממש כמו נבט בתוך האדמה. <br />מה קורה כשאנחנו רצים מרעיון לרעיון, מיוזמה ליוזמה, מבלי להמתין...מבלי להשקיע עוד רגע בתהליך, כי איננו רואים שום תוצאה? אנחנו מפספסים את הקסם של הגבעול המציץ מעל פני האדמה.<br />
 בלימוד שלי אני מנחה את <b>שלושת השלבים של המניפסט - חוק 3 השלבים </b>הוא חוק ההגשמה. ניתן למצוא אותו בקורס שלי - קוד הסביבון, ובקורס השפע.&nbsp; &nbsp;</p>
           <p><a href="#" class="blog-gallery-section__card-link" style="color: #1A1A1A !important">קרא עוד ←</a>
@@ -1448,7 +1448,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Card 3 -->
       <article class="blog-gallery-section__card" data-grid-item-index="2">
         <figure class="blog-gallery-section__card-media">
-          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-3" data-context="Abstract cosmic swirl of purple and gold light forming a brain-like pattern, symbolizing creative consciousness and universal mind" width="600" height="400" src="/assets/site-blog-gallery-image-3.webp" alt="מערבולת קוסמית המסמלת תודעה יצירתית" data-element-type="image" data-element-id="img-1784576976424-4j9bsygdn" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-3" data-context="Abstract cosmic swirl of purple and gold light forming a brain-like pattern, symbolizing creative consciousness and universal mind" width="600" height="400" src="/assets/site-blog-gallery-image-3.webp" alt="מערבולת קוסמית המסמלת תודעה יצירתית" data-element-type="image" data-element-id="img-1784576976424-4j9bsygdn" style fetchpriority="low" />
         </figure>
         <div class="blog-gallery-section__card-content">
           <h3 class="blog-gallery-section__card-title">תודעה יוצרת: הכוח לעצב את המציאות</h3>
@@ -1460,7 +1460,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Card 4 -->
       <article class="blog-gallery-section__card" data-grid-item-index="3">
         <figure class="blog-gallery-section__card-media">
-          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-4" data-context="A serene woman meditating in a sunlit room with crystals and candles, representing sacred routine and daily spiritual practice" width="600" height="400" src="/assets/site-blog-gallery-image-4.webp" alt="אישה מוארת במדיטציה המסמלת שגרה מקודשת" data-element-type="image" data-element-id="img-1784576976425-ephbgu0ij" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-4" data-context="A serene woman meditating in a sunlit room with crystals and candles, representing sacred routine and daily spiritual practice" width="600" height="400" src="/assets/site-blog-gallery-image-4.webp" alt="אישה מוארת במדיטציה המסמלת שגרה מקודשת" data-element-type="image" data-element-id="img-1784576976425-ephbgu0ij" style fetchpriority="low" />
         </figure>
         <div class="blog-gallery-section__card-content">
           <h3 class="blog-gallery-section__card-title">שגרה מקודשת: טקסים יומיומיים לנשמה</h3>
@@ -1472,7 +1472,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Card 5 -->
       <article class="blog-gallery-section__card" data-grid-item-index="4">
         <figure class="blog-gallery-section__card-media">
-          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-5" data-context="A person sitting quietly by a forest stream with closed eyes, symbolizing mindful listening and connection to nature's wisdom" width="600" height="400" src="/assets/site-blog-gallery-image-5.webp" alt="אדם יושב ליד נחל ביער המסמל הקשבה מודעת" data-element-type="image" data-element-id="img-1784576976426-yo9blp7e4" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-5" data-context="A person sitting quietly by a forest stream with closed eyes, symbolizing mindful listening and connection to nature's wisdom" width="600" height="400" src="/assets/site-blog-gallery-image-5.webp" alt="אדם יושב ליד נחל ביער המסמל הקשבה מודעת" data-element-type="image" data-element-id="img-1784576976426-yo9blp7e4" style fetchpriority="low" />
         </figure>
         <div class="blog-gallery-section__card-content">
           <h3 class="blog-gallery-section__card-title">הקשבה מודעת: שפת הדממה של הבריאה</h3>
@@ -1484,7 +1484,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Card 6 -->
       <article class="blog-gallery-section__card" data-grid-item-index="5">
         <figure class="blog-gallery-section__card-media">
-          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-6" data-context="A phoenix rising from golden flames against a dark starry sky, symbolizing spiritual resilience and transformation through challenge" width="600" height="400" src="/assets/site-blog-gallery-image-6.webp" alt="עוף החול עולה מהלהבות המסמל חוסן רוחני" data-element-type="image" data-element-id="img-1784576976427-2yf6ansdn" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="blog-gallery-image-6" data-context="A phoenix rising from golden flames against a dark starry sky, symbolizing spiritual resilience and transformation through challenge" width="600" height="400" src="/assets/site-blog-gallery-image-6.webp" alt="עוף החול עולה מהלהבות המסמל חוסן רוחני" data-element-type="image" data-element-id="img-1784576976427-2yf6ansdn" style fetchpriority="low" />
         </figure>
         <div class="blog-gallery-section__card-content">
           <h3 class="blog-gallery-section__card-title">חוסן רוחני: לקום מתוך האתגר</h3>
@@ -1504,14 +1504,14 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 </section>
 
 <section class="blog-quote-section zappy-lazy-bg" data-layout-spec="בלוג-quote" id="blog-quote-section" style="--zappy-bg-overlay: rgba(245, 20, 174, 0.09);--zappy-bg-size: cover;--zappy-bg-position: center;background-size: cover;background-position: center center;background-repeat: no-repeat;position: relative;overflow: hidden" data-zappy-bg-type="image" data-zappy-bg-color data-zappy-bg-image="assets/business-general-hero-upload-1784577614676.webp" data-zappy-bg-overlay-color="#f514ae" data-zappy-bg-overlay-opacity="9" data-zappy-bg-video-type data-zappy-bg-video-url data-zappy-content-align="upper-center" data-zappy-lazy-bg="background-image: linear-gradient(rgba(245, 20, 174, 0.09), rgba(245, 20, 174, 0.09)), url(&quot;assets/business-general-hero-upload-1784577614676.webp&quot;);--zappy-bg-image: url(&quot;assets/business-general-hero-upload-1784577614676.webp&quot;);">
-  <div class="blog-quote-section__container" data-zappy-align-target="true">
+  <div class="blog-quote-section__container" data-zappy-align-target="true" style>
     <div class="blog-quote-section__content">
       <blockquote class="blog-quote-section__blockquote">
         <svg class="blog-quote-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
           <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
         </svg>
-        <h2 class="blog-quote-section__heading"><span style="color: #800080 !important">החוכמה אינה מגיעה ברעש גדול, אלא בדממה שבין המילים. ברגעים שבהם אנו עוצרים, מתבוננים פנימה, ומאפשרים לשתיקה לדבר - שם מסתתרים המסרים האמיתיים מעולם היצירה.</span></h2>
-        <p class="blog-quote-section__paragraph"><span style="color: #800080 !important"><b>הצמיחה האישית והרוחנית מזמינה אותנו להאט את הקצב, להקשיב לקול הפנימי ולהיפתח לתובנות שמגיעות דווקא מתוך ההקשבה הכנה. זהו מסע של גילוי עצמי, שבו כל צעד קטן מוביל להתעוררות עמוקה יותר.</b></span></p>
+        <h2 class="blog-quote-section__heading" style><span style="color: #800080 !important">החוכמה אינה מגיעה ברעש גדול, אלא בדממה שבין המילים. ברגעים שבהם אנו עוצרים, מתבוננים פנימה, ומאפשרים לשתיקה לדבר - שם מסתתרים המסרים האמיתיים מעולם היצירה.</span></h2>
+        <p class="blog-quote-section__paragraph" style><span style="color: #800080 !important"><b>הצמיחה האישית והרוחנית מזמינה אותנו להאט את הקצב, להקשיב לקול הפנימי ולהיפתח לתובנות שמגיעות דווקא מתוך ההקשבה הכנה. זהו מסע של גילוי עצמי, שבו כל צעד קטן מוביל להתעוררות עמוקה יותר.</b></span></p>
       </blockquote>
     </div>
   </div>
@@ -1654,7 +1654,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 
       <!-- Contact Info Column -->
       <div class="footer-col footer-contact-col">
-        <h4>צרו קשר</h4>
+        <h4 style>צרו קשר</h4>
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1782680082881-7gxrzg8a6" data-icon-type="fontawesome"></i></span>
@@ -1662,9 +1662,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1782680082881-gyiuzm5ma" data-icon-type="fontawesome"></i></span>
-            <span class="contact-text"><a href="tel:0526422676">0526422676<br /></a></span>
+            <span class="contact-text"><a href="tel:0526422676" style>0526422676<br /></a></span>
           </li>
-          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%A2%D7%A0%D7%A0%D7%94%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%A2%D7%A0%D7%A0%D7%94%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" style target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
             <span class="contact-text"><br /></span></a></li>
         </ul>
       </div>
@@ -1672,7 +1672,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Business Hours Column -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+        <ul class="footer-hours" style><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
 <li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
 <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
