@@ -6101,17 +6101,33 @@ Description: Browse all available courses.
 
 
 
-# Courses
+# קורסים
 
 
-Browse our full course library.
+עיינו בספריית הקורסים המלאה שלנו.
 
 
 
+### קוד הסביבון
 
-Loading courses…
+לילך נגה
 
+קוד הסביבון הפנימי - שמיניות באוויר
 
+₪360.00
+
+### שערי האסטרולוגיה
+
+לילך נגה
+
+קורס בן 13 שיעורים, שיסייע לכם לסובב את הסיבוב השני במפתח. הקורס מנגיש למידה רחבה ומקיפה של 12 מזלו…
+₪899.00
+### סוד האותיות
+
+לילך נגה
+
+טסט של זאפי
+₪1069.00
 
 
 
@@ -6957,7 +6973,7 @@ Verifying…
 ## Product Catalog
 
 ### קוד הסביבון
-URL: https://lilachnoga.co.il/product/kvd-hsbybvn-n4re92
+URL: https://lilachnoga.co.il/product/kvd-hsbybvn-adpnxl
 Price: 360.00 ILS
 Availability: In stock
 
