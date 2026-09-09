@@ -6113,7 +6113,9 @@ Description: Browse all available courses.
 לילך נגה
 
 קוד הסביבון הפנימי - שמיניות באוויר
+
 ₪360.00
+
 ### שערי האסטרולוגיה
 
 לילך נגה
@@ -6123,6 +6125,8 @@ Description: Browse all available courses.
 ### סוד האותיות
 
 לילך נגה
+
+טסט של זאפי
 ₪1069.00
 
 
