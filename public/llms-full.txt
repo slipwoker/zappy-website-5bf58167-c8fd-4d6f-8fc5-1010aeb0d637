@@ -539,7 +539,7 @@ Click to add embed URL
 
 
 
-
+Click to add embed URL
 
 
 
@@ -978,7 +978,7 @@ Description: בלוג רוחניות ועזרה עצמית עם מאמרים מ�
 
 
 
-
+Click to add embed URL
 
 
 
@@ -1443,7 +1443,7 @@ Description: ערוץ הקלטות ייחודי עם תכנים קוליים ל�
 
 
 
-
+Click to add embed URL
 
 
 
@@ -1834,7 +1834,7 @@ Description: צרו קשר עם צוות &#39;מסרים מעולם היצירה
 
 
 
-
+Click to add embed URL
 
 
 
@@ -2046,7 +2046,7 @@ Description: עגלת הקניות שלך
 
 
 
-
+Click to add embed URL
 
 
 
@@ -2484,7 +2484,7 @@ Description: תשלום
 
 
 
-
+Click to add embed URL
 
 
 
@@ -2753,7 +2753,7 @@ Description: התחברות לקוחות
 
 
 
-
+Click to add embed URL
 
 
 
@@ -3167,7 +3167,7 @@ Description: החשבון שלי
 
 
 
-
+Click to add embed URL
 
 
 
@@ -3443,7 +3443,7 @@ Description: תודה שנרשמת לקורס
 
 
 
-
+Click to add embed URL
 
 
 
@@ -3748,7 +3748,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 
 
 
-
+Click to add embed URL
 
 
 
@@ -4076,7 +4076,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 
-
+Click to add embed URL
 
 
 
@@ -4373,7 +4373,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 
 
-
+Click to add embed URL
 
 
 
@@ -4689,7 +4689,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 
 
-
+Click to add embed URL
 
 
 
@@ -4926,7 +4926,7 @@ Description: מסרים מעולם היצירה - תודה על פנייתך
 
 
 
-
+Click to add embed URL
 
 
 
@@ -5300,7 +5300,7 @@ Description: מסרים מעולם היצירה - ארבעת שלבי ההתעו
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6046,7 +6046,7 @@ Description: מסרים מעולם היצירה - מילון מושגים
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6101,17 +6101,31 @@ Description: Browse all available courses.
 
 
 
-# Courses
+# קורסים
 
 
-Browse our full course library.
+שלושת הקורסים יחד פותחים את שלושת המפתחות בדרך לקוד הנשמתי שלכם. מוכנים להפעיל אותו?
 
 
 
+### קוד הסביבון
 
-Loading courses…
+לילך נגה
 
+רוצים למצוא את הקוד שמפעיל את שורש נשמתכם? גלו איך ליצור מציאות דרך שמכם, לצאת מדפוס הקורבן ולהיות…
+₪360.00
+### שערי האסטרולוגיה
 
+לילך נגה
+
+מעוניינים לדעת מה צופן גורלכם?! מה השמש, הירח והאופק מעידים על אישיותכם, ואיך כל זאת משפיע על מסלול…
+₪899.00
+### סוד האותיות
+
+לילך נגה
+
+למדו צעד אחר צעד איך אור הבורא משתלשל דרך אותיות שמכם. גלו מה אומרת כל אות, מהם האלמנטים שלהן: אדמה…
+₪1069.00
 
 
 
@@ -6187,7 +6201,7 @@ Loading courses…
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6331,7 +6345,7 @@ Loading courses…
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6492,7 +6506,7 @@ Already enrolled?   Log in
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6644,7 +6658,7 @@ Next
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6788,7 +6802,7 @@ You haven't enrolled in any courses yet.
 
 
 
-
+Click to add embed URL
 
 
 
@@ -6926,7 +6940,7 @@ Verifying…
 
 
 
-
+Click to add embed URL
 
 
 
