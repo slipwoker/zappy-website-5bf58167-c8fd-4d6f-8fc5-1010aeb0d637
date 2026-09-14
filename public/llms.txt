@@ -58,10 +58,6 @@ https://lilachnoga.co.il/glossary
 https://lilachnoga.co.il/courses
 Browse all available courses.
 
-### Course Category
-https://lilachnoga.co.il/category/:slug
-Browse courses in this category.
-
 ### Course Detail
 https://lilachnoga.co.il/courses/:slug
 Course details and curriculum.
@@ -77,6 +73,10 @@ Your enrolled courses and progress.
 ### Certificate
 https://lilachnoga.co.il/certificate/:code
 Verify a course completion certificate.
+
+### Course Category
+https://lilachnoga.co.il/category/:slug
+Browse courses in this category.
 
 ## Legal & Policy
 
