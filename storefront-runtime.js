@@ -15853,9 +15853,41 @@ async function loadRelatedProducts(currentProduct, t) {
   }
 
   // ---- helpers ----
+  // Editor toolbar color wraps the label in <font color> / <span style="color">.
+  // A later textContent assignment (i18n labels, hydrateCourseDetail) used to
+  // unwrap that and the color vanished after refresh. Hoist onto the host first.
+  function hoistInlineTextColor(el) {
+    if (!el || !el.style) return;
+    if (el.style.color) return;
+    if (el.childElementCount !== 1) return;
+    var child = el.firstElementChild;
+    if (!child) return;
+    var color = '';
+    var important = false;
+    var childStyle = child.getAttribute('style') || '';
+    if (child.tagName === 'FONT' && child.getAttribute('color')) {
+      color = child.getAttribute('color');
+    } else if (child.style && child.style.color) {
+      color = child.style.color;
+      important = child.style.getPropertyPriority('color') === 'important'
+        || /color\s*:\s*[^;]+!important/i.test(childStyle);
+    } else {
+      return;
+    }
+    if (!color) return;
+    el.style.setProperty('color', color, important ? 'important' : '');
+    el.textContent = el.textContent;
+  }
+  function setTextPreservingColor(el, val) {
+    if (!el) return;
+    hoistInlineTextColor(el);
+    var color = el.style && el.style.color;
+    var important = !!(color && el.style.getPropertyPriority('color') === 'important');
+    el.textContent = val == null ? '' : String(val);
+    if (color) el.style.setProperty('color', color, important ? 'important' : '');
+  }
   function setText(root, sel, val) {
-    var el = root.querySelector(sel);
-    if (el) el.textContent = val == null ? '' : String(val);
+    setTextPreservingColor(root.querySelector(sel), val);
   }
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, function(c) {
@@ -15869,8 +15901,11 @@ async function loadRelatedProducts(currentProduct, t) {
     document.querySelectorAll('[data-ecom-text]').forEach(function(el) {
       var key = el.getAttribute('data-ecom-text');
       if (!key) return;
+      hoistInlineTextColor(el);
       var fallback = el.textContent || '';
-      el.textContent = tx(key, fallback);
+      var next = tx(key, fallback);
+      if (String(next) === String(fallback)) return;
+      setTextPreservingColor(el, next);
     });
   }
 
