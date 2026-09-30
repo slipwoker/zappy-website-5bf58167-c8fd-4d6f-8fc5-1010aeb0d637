@@ -15897,6 +15897,24 @@ async function loadRelatedProducts(currentProduct, t) {
   function escapeAttr(s) { return escapeHtml(s).replace(/\n/g, ' '); }
   function stripTags(s) { return String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(); }
 
+  function normalizeEcomLabel(text) {
+    return String(text || '').replace(/\s+/g, ' ').trim();
+  }
+  // Only rewrite stock dictionary copy (any locale). A merchant-edited
+  // title/subtitle is saved in the page HTML; overwriting it with tx()
+  // on every load made text edits look unsaved after refresh.
+  function isStockEcomLabel(key, text) {
+    var needle = normalizeEcomLabel(text);
+    if (!needle) return true;
+    var bare = (key && key.indexOf('ecom_') === 0) ? key.slice(5) : key;
+    var dicts = COURSES_ECOM_TEXT || {};
+    var langs = Object.keys(dicts);
+    for (var i = 0; i < langs.length; i++) {
+      var val = dicts[langs[i]] && dicts[langs[i]][bare];
+      if (val && normalizeEcomLabel(val) === needle) return true;
+    }
+    return false;
+  }
   function applyStaticCoursesLabels() {
     document.querySelectorAll('[data-ecom-text]').forEach(function(el) {
       var key = el.getAttribute('data-ecom-text');
@@ -15905,6 +15923,7 @@ async function loadRelatedProducts(currentProduct, t) {
       var fallback = el.textContent || '';
       var next = tx(key, fallback);
       if (String(next) === String(fallback)) return;
+      if (!isStockEcomLabel(key, fallback)) return;
       setTextPreservingColor(el, next);
     });
   }

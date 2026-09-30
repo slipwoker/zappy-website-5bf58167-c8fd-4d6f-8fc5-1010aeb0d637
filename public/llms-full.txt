@@ -6219,7 +6219,7 @@ Description: Browse all available courses.
 
 
 
-# קורסים
+# קורסים טסט של עידו
 
 
 עיינו בספריית הקורסים המלאה שלנו.
