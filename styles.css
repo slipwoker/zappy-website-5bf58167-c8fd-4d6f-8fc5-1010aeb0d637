@@ -19580,6 +19580,25 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   height: 100px !important;
 }
 }
+
+@media (max-width: 768px) {
+#ai-section-1784556610497-1yt2k4a-dup-1785410193086 .hero-cosmic-gateway__title,
+  #ai-section-1784556610497-1yt2k4a-dup-1785410193086 .hero-cosmic-gateway__content h1,
+  #ai-section-1784556610497-1yt2k4a-dup-1785410193086 .hero-cosmic-gateway__content h2 {
+  text-align: center !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#ai-section-1784556610497-1yt2k4a-dup-1785410193086 .hero-cosmic-gateway__content {
+  text-align: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
