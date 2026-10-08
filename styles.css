@@ -19625,6 +19625,51 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   width: 100% !important;
 }
 }
+
+@media (max-width: 768px) {
+.index-showcase-section .index-showcase-section__container {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.index-showcase-section .index-showcase-section__content {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.index-showcase-section .index-showcase-section__heading,
+  .index-showcase-section .index-showcase-section__description,
+  .index-showcase-section .index-showcase-section__format-title,
+  .index-showcase-section .index-showcase-section__format-desc {
+  text-align: center !important;
+}
+
+.index-showcase-section .index-showcase-section__format-card {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.index-showcase-section .index-showcase-section__format-text {
+  text-align: center !important;
+}
+
+.index-showcase-section .index-showcase-section__cta {
+  justify-content: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.index-showcase-section .index-showcase-section__media,
+  .index-showcase-section .index-showcase-section__media-composition,
+  .index-showcase-section .index-showcase-section__image-main-wrapper {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
