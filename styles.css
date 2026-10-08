@@ -19563,6 +19563,23 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   font-size: 3rem !important;
 }
 }
+
+@media (max-width: 768px) {
+.hero-cosmic-gateway .hero-cosmic-gateway__title {
+  font-size: 48px !important;
+  line-height: 1.2 !important;
+}
+
+.hero-cosmic-gateway .hero-cosmic-gateway__content {
+  gap: 28px !important;
+  padding: 40px 20px !important;
+}
+
+.hero-cosmic-gateway .hero-cosmic-gateway__logo-container {
+  width: 100px !important;
+  height: 100px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
