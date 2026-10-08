@@ -19476,6 +19476,37 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .quiz-score.passed { border-color:var(--success-color, var(--border-dark)); }
 .quiz-score.failed { border-color:var(--error-color, var(--border-dark)); }
 
+@media (max-width: 768px) {
+.index-features-section .index-features-section__featured-grid {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 40px !important;
+}
+
+.index-features-section .index-features-section__courses-grid {
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 30px !important;
+}
+
+.index-features-section .index-features-section__title {
+  font-size: 2.4rem !important;
+}
+
+.index-features-section .index-features-section__h1 {
+  font-size: 3rem !important;
+}
+
+.index-showcase-section .index-showcase-section__formats {
+  grid-template-columns: 1fr 1fr !important;
+}
+
+.index-cta-section .index-cta-section__actions {
+  flex-direction: row !important;
+}
+
+.index-hero-section .hero-cta-group {
+  flex-direction: row !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
