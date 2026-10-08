@@ -19580,16 +19580,6 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   height: 100px !important;
 }
 }
-
-.hero-cosmic-gateway .hero-cosmic-gateway__logo-container {
-  background: transparent !important;
-  backdrop-filter: none !important;
-  box-shadow: none !important;
-}
-
-.hero-cosmic-gateway .hero-cosmic-gateway__logo-glow {
-  background: transparent !important;
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
