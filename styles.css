@@ -19599,6 +19599,10 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
   padding-right: 16px !important;
 }
 }
+
+.courses-catalog-section h2.courses-extra-title {
+  color: var(--surface-color, var(--surface, #FFFFFF)) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
