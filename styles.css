@@ -21727,6 +21727,10 @@ body:has(.courses-page-main) .courses-page-main:has(.course-detail-section) {
 .courses-catalog-section h2.courses-extra-title {
   color: var(--surface-color, var(--surface, #FFFFFF)) !important;
 }
+
+.courses-catalog-section .zappy-catalog-menu {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
