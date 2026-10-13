@@ -6210,8 +6210,6 @@ Description: Browse all available courses.
 
 
 
-כל הקורסים
-
 
 
 
